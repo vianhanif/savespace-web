@@ -1,0 +1,42 @@
+.category-detail-page {
+	padding: 3rem 0;
+}
+
+.category-detail-media > .media-body {
+	padding-top: 0.6rem;
+}
+
+.detail-vendor > .media-body {
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
+}
+
+.category-detail-other {
+	padding: 0.5rem 1rem;
+	font-family: $font-family-primary;
+	font-size: 0.9rem;
+	font-weight: $font-weight-small;
+}
+
+.category-detail-title {
+	font-family: $font-family-primary;
+	font-size: 0.9rem;
+	font-weight: $font-weight-medium;
+}
+
+.category-detail-desc {
+	font-family: $font-family-primary;
+	font-size: 0.8rem;
+	font-weight: $font-weight-small;
+}
+
+.vendor-desc-address {
+	line-height: 1.5rem;
+	font-size: .9rem;
+	color: #636363;
+}
+
+.vendor-desc-caption {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}

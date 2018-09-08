@@ -1,0 +1,38 @@
+.filterMenuItem {
+  flex-grow: 1;
+  padding: 11px 12px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #dfe3e6;
+  border-bottom: none;
+  border-top: none;
+  text-align: center;
+  @media screen and (max-width: 375px) {
+    padding: 11px 12px;
+  }
+  &:first-child {
+    border-left: none;
+    // border-right: none;
+  }
+  &:last-child {
+    border-right: none;
+  }
+  &__text {
+    color: #152934;
+    margin-right: 23px;
+    font-size: 12px;
+    display: inline-flex;
+    vertical-align: middle;
+  }
+  &__svgWrapper {
+    display: inline-flex;
+    vertical-align: middle;
+    svg {
+      width: 24px;
+      height: 24px;
+      path {
+        fill: #ec9d00;
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+.checkout-menu {
+  padding: 0.8rem 0;
+  .checkout-map {
+    width: 100%;
+    position: relative;
+    .checkout-icon-exit {
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(15px, -15%);
+      color: #ec9d00;
+    }
+    .checkout-icon-download {
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translate(-50%, -15%);
+      color: #ec9d00;
+    }
+    .checkout-icon-share-variant {
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translate(-52px, -15%);
+      color: #ec9d00;
+      display: none;
+    }
+  }
+}
+
+#printable-checkout {
+  padding: 0 16px;
+  min-height: 720px;
+}
+.checkout-header {
+  padding: 24px 0;
+}
+
+.checkout-title {
+  font-family: 'Roboto';
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  color: #152934;
+}
+
+.checkout-help-title {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2c2c2c;
+  padding-top: 8px;
+}
+
+.checkout-orderid-total {
+  display: inline-block;
+  width: 100%;
+}
+
+.checkout-orderid-total-title {
+  padding-bottom: 8px;
+}
+.checkout-orderid-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #152934;
+}
+
+.checkout-orderid-data {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #152934;
+  padding: 8px 0;
+}
+
+.checkout-total-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  float: right;
+  color: #152934;
+}
+
+.checkout-total-data {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  float: right;
+  color: #152934;
+}
+
+.checkout-orderid-total-data {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #dfe3e6;
+  padding: 9px 8px;
+  margin-bottom: 8px;
+}
+
+.checkout-help-digit {
+  background-color: #f8e8c6;
+  padding: 16px;
+}
+
+.checkout-help-digit-data {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  color: #b46f00;
+}
+
+.checkout-payment-deadline {
+  margin: 24px 0;
+}
+
+.checkout-payment-deadline-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #152934;
+}
+
+.checkout-payment-deadline-data {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #152934;
+  padding: 8px 0;
+}
+
+.checkout-payment-method-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #152934;
+}
+
+.checkout-payment-method-help {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #152934;
+  padding: 8px 0;
+}
+
+.checkout-payment-method-detail {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #dfe3e6;
+  padding: 8px;
+}
+
+.checkout-transfer-name,
+.checkout-transfer-bank {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #152934;
+}
+.checkout-transfer-banknumber {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #152934;
+}
+
+.checkout-payment-thanks {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #152934;
+  text-align: center;
+  padding: 16px 0;
+}
+

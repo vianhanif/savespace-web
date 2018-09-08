@@ -1,0 +1,22 @@
+.category-content {
+	padding-top: 3.6rem;
+}
+.category-list-title {
+	font-family: $font-family-primary;
+	font-weight: $font-weight-medium;
+	font-size: 0.9rem;
+	color: $light-black;
+}
+.category-list-sub{
+	font-family: $font-family-primary;
+	font-weight: $font-weight-small;
+	font-size: 0.9rem;
+	color: $light-black;
+}
+.category-list-collapse {
+	cursor: pointer !important;
+}
+
+.padding-sub-menu {
+    padding: 1rem 2rem;
+}

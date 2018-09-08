@@ -1,0 +1,53 @@
+// color section
+$white: #ffffff;
+$black: #111010;
+$grey: #78838b;
+$mate-black: #252525;
+$light-black: #2c2c2c;
+
+$color-primary: #ec9d00;
+$color-primary-hover: darken($color-primary, 15%);
+$color-secondary: #d1aa5b;
+$color-secondary-hover: darken($color-secondary, 15%);
+
+$color-warning: #ffc23e;
+$color-danger: #db2427;
+$color-green: #379f7a;
+$color-purple: #a242b3;
+
+// font family
+$font-family-primary: "Roboto", sans-serif;
+$font-family-secondary: "Lato", sans-serif;
+
+// font weight
+$font-weight-small: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-large: 600;
+$font-weight-huge: 700;
+
+// font size
+$font-size-regular: 16px;
+$font-size-medium: 24px;
+$font-size-large: 36px;
+$font-size-huge: 42px;
+
+// line height
+$line-height-regular: 24px;
+$line-height-medium: 32px;
+$line-height-large: 46px;
+$line-height-huge: 54px;
+
+// padding
+$padding-light: 1em;
+$padding-small: 2em;
+$padding-regular: 3em;
+$padding-medium: 5em;
+$padding-large: 7em;
+$padding-huge: 14em;
+
+// margin
+$margin-light: 15px;
+$margin-small: 10px;
+$margin-regular: 16px;
+$margin-medium: 24px;

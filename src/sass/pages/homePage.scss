@@ -1,0 +1,116 @@
+.filter-menu {
+  margin-top: 4.3rem;
+}
+.filter-menu-col {
+  @include breakpoint(xss) {
+    padding: 0.5rem 0.5rem;
+  }
+  @include breakpoint(xs) {
+    padding: 0.5rem 0.5rem;
+  }
+  @include breakpoint(sm) {
+    padding: 0.5rem 1rem;
+  }
+  @include breakpoint(md) {
+    padding: 0.5rem 1rem;
+  }
+  @include breakpoint(lg) {
+    padding: 0.5rem 1rem;
+  }
+}
+.filter-menu-item {
+  font-size: 0.857rem;
+  color: $light-black;
+  padding: 0.857rem 0.2rem;
+}
+
+.bottom-menu {
+  padding: 0.1rem 0;
+  text-align: center;
+}
+
+.circle-category {
+  text-align: center;
+  margin: 0 auto;
+  height: 5rem;
+  width: 5rem;
+  @include breakpoint(xss) {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  @include breakpoint(xs) {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  @include breakpoint(sm) {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  @include breakpoint(md) {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  @include breakpoint(lg) {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+.circle-category {
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  img {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+}
+
+.circle-category-title {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-regular;
+  font-size: 0.8rem;
+  padding-top: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.bottom-menu-title {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-regular;
+  font-size: 0.857rem;
+  line-height: 1.1;
+}
+.slider-container {
+  border-radius: 4px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  .img-fluid {
+    border-radius: 4px;
+  }
+}
+.subsidiaries-community > a,
+.subsidiaries-community > a:hover,
+.subsidiaries-charity > a,
+.subsidiaries-charity > a:hover {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-medium;
+  color: $white;
+  text-decoration: none;
+
+  @include breakpoint(xss) {
+    font-size: 0.5rem;
+  }
+  @include breakpoint(md) {
+    font-size: 0.8rem;
+  }
+}
+
+.home-content {
+  margin-bottom: 3.57rem;
+}

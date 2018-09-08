@@ -1,0 +1,138 @@
+.detail-card {
+  background-color: #ffffff;
+  margin-bottom: 1.71rem;
+}
+.detail-page {
+  padding: 3.08rem 0;
+  height: 100%;
+}
+.detail-page-btn {
+  @include breakpoint(xs) {
+    margin: 0 1rem;
+  }
+}
+.detail-page-btn > .btn {
+  font-family: $font-family-primary;
+  font-size: 0.9rem;
+  font-weight: $font-weight-small;
+}
+
+.detail-product-header {
+  padding: 16px 0;
+}
+
+.btn-circle {
+  background-color: #ffffff;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50% !important;
+  text-align: center;
+  // @include breakpoint(xss) {
+  //   height: 2.5rem;
+  //   width: 2.5rem;
+  // }
+  .icon {
+    display: inline-flex;
+    vertical-align: middle;
+    height: 10px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.btn-circle .mdi {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.detail-title-price {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  .detail-product-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    margin-bottom: 0.42rem;
+    color: #152934;
+  }
+}
+
+.btn-circle > .mdi-heart {
+  color: #c54139;
+}
+
+.btn-circle > .mdi-share-variant {
+  color: #8c9ba5;
+}
+
+.product-varian {
+  .primary-title {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #152934;
+  }
+  .product-varian-color {
+    padding: 15px 0 12px;
+  }
+  .product-varian-size {
+    padding: 12px 0 15px;
+  }
+}
+
+.product-varian-btn {
+  padding: 0.2rem 1rem;
+  margin: 0.84rem 0.41rem 0.84rem 0;
+  border: solid 1px #8c9ba5;
+  color: #8c9ba5;
+  &.active {
+    box-shadow: none;
+    background-color: #ec9d00;
+    color: #ffffff;
+    border: none;
+  }
+}
+
+.title-btn-circle {
+  font-family: $font-family-primary;
+  font-size: 0.857rem;
+  font-weight: $font-weight-regular;
+  color: #8c9ba5;
+  padding-top: 0.2rem;
+  @include breakpoint(xss) {
+    font-size: 0.857rem;
+  }
+}
+
+.discount-price {
+  text-decoration: line-through;
+  padding: 0 1rem;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-family: 'Roboto';
+}
+.detail-image {
+  background-color: #f5f7fa;
+  min-height: 200px;
+  padding: 0;
+}
+.detail-product-desc {
+  font-family: 'Roboto';
+  font-size: 0.857rem;
+  word-break: break-word;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #78838b;
+  padding: 1.14rem 0 3.07rem;
+}

@@ -1,0 +1,99 @@
+@import "../../../sass/mixins/_mixins.scss";
+
+[tooltip] {
+  margin: auto;
+  position: relative;
+}
+
+[tooltip]::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px 10px 0 10px;
+  border-style: solid;
+  border-color: #ec9d00 transparent transparent transparent;
+  z-index: 100;
+}
+[tooltip]::after {
+  content: attr(tooltip);
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  transform: translateX(-50%) translateY(-100%);
+  background: #ec9d00;
+  text-align: center;
+  color: #fff;
+  padding: 4px 2px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  min-width: 180px;
+  border-radius: 16px;
+  pointer-events: none;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+@include breakpoint(xss) {
+  [tooltip]::after {
+    content: attr(tooltip);
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-50%) translateY(-100%);
+    background: #e1b863;
+    text-align: center;
+    color: #fff;
+    padding: 4px 2px;
+    font-size: 10px;
+    font-family: 'Roboto';
+    min-width: 160px;
+    border-radius: 16px;
+    pointer-events: none;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  }
+}
+[tooltip-position='left']::before {
+  left: 0%;
+  top: 50%;
+  margin-left: -12px;
+  transform: translatey(-50%) rotate(-90deg);
+}
+[tooltip-position='top']::before {
+  left: 50%;
+}
+[tooltip-position='bottom']::before {
+  top: 100%;
+  margin-top: 8px;
+  transform: translateX(-50%) translatey(-100%) rotate(-180deg);
+}
+[tooltip-position='right']::before {
+  left: 100%;
+  top: 50%;
+  margin-left: 1px;
+  transform: translatey(-50%) rotate(90deg);
+}
+[tooltip-position='left']::after {
+  left: 0%;
+  top: 50%;
+  margin-left: -8px;
+  transform: translateX(-100%) translateY(-50%);
+}
+[tooltip-position='top']::after {
+  left: 50%;
+}
+[tooltip-position='bottom']::after {
+  top: 100%;
+  margin-top: 8px;
+  transform: translateX(-50%) translateY(0%);
+}
+[tooltip-position='right']::after {
+  left: 100%;
+  top: 50%;
+  margin-left: 8px;
+  transform: translateX(0%) translateY(-50%);
+}
+
+[tooltip]:hover::after,
+[tooltip]:hover::before {
+  opacity: 1;
+}

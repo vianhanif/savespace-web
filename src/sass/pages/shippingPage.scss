@@ -1,0 +1,51 @@
+.shipping-content {
+	padding: 1rem;
+}
+
+.shipping-step-menu {
+	padding: 0.8rem 0;
+}
+
+.shipping-step-box {
+	width: 1.28rem;
+	height: 1.28rem;
+	margin: auto auto;
+	color: $grey;
+	font-size: 0.78rem;
+}
+
+.title-step-box {
+	font-family: $font-family-primary;
+	font-size: 0.78rem;
+	color: $grey
+}
+
+.shipping-btn {
+	text-transform: uppercase;
+	background-color: #00a54a;
+	color: $white;
+}
+
+.shipping-card {
+	max-width: 100%;
+	margin: 0.57rem auto 1.14rem;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	border: 0.07rem solid rgba(0,0,0,.125);
+	.shipping-card-body {
+		padding: 1.07rem;
+		font-size: 0.85rem;
+		label {
+			display: inline-block;
+			margin-bottom: .5rem;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: 0.02rem;
+		}
+		select {
+			font-size: 0.85rem;
+		}
+	}
+}
