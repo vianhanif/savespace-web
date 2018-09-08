@@ -8,7 +8,8 @@ import './style.scss'
 class Spaces extends Component {
 
   componentWillMount() {
-    this.props.dispatch(subCategoryActions.getSubCategories())
+    const { id } = this.props.match.params
+    this.props.dispatch(subCategoryActions.getSubCategories(id))
   }
 
   pickCategory(item) {
@@ -23,13 +24,18 @@ class Spaces extends Component {
         {this.props.SubCategory.list.length > 0 && (
           <div className="category-container">
             {this.props.SubCategory.list.map((item, index) => (
-              <div className="category-item">
+              <div className="category-item" key={index}>
                 <Button 
                 type="rounded" 
                 style={{background: item.color, border: 'none'}}
                 onClick={() => this.pickCategory(item)}
                 >
-                  <img src=""/>
+                  <div className="image"
+                    style={{
+                      background: `url('${item.image}') no-repeat center`,
+                      backgroundSize: 'cover'
+                    }}
+                  />
                 </Button>
                 <label>{item.name}</label>
               </div>

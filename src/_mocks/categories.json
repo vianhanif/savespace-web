@@ -4,25 +4,25 @@
 		{
 			"id": "1",
 			"name": "OLAHRAGA",
-			"image": "",
+			"image": "https://picsum.photos/1910/1000?random",
 			"color": "#2580F1"
 		},
 		{
 			"id": "2",
 			"name": "CONVENTION",
-			"image": "",
+			"image": "https://picsum.photos/1910/1000?random",
 			"color": "#FB8026"
 		},
 		{
 			"id": "3",
 			"name": "MEETING",
-			"image": "",
+			"image": "https://picsum.photos/1910/1000?random",
 			"color": "#8BC34A"
 		},
 		{
 			"id": "4",
 			"name": "OTHERS",
-			"image": "",
+			"image": "https://picsum.photos/1910/1000?random",
 			"color": "#009688"
 		}
 	]

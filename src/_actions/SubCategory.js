@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as types from '../_constants/SubCategory'
 
-export function getSubCategories() {
+export function getSubCategories(id) {
   return async dispatch => {
     // let response = await axios.get(JSON.stringify(require().default))
     let response = require('../_mocks/sub_categories.json')

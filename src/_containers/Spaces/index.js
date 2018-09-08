@@ -24,6 +24,7 @@ class Spaces extends Component {
                     image={space.images[0].original_path}
                     title={space.name}
                     description={`${space.rate} Stars. ${space.address}`}
+                    onClick={() => this.props.history.push(`/detail/${space.id}`)}
                   />
                 ))}
               </CardGroup>

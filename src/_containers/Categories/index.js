@@ -13,7 +13,7 @@ class Spaces extends Component {
 
   pickCategory(item) {
     this.props.dispatch(categoryActions.pickCategory(item))
-    this.props.history.push('/sub_category')
+    this.props.history.push(`/category/${item.id}/sub_categories`)
   }
 
   render() {
@@ -23,13 +23,18 @@ class Spaces extends Component {
         {this.props.Category.list.length > 0 && (
           <div className="category-container">
             {this.props.Category.list.map((item, index) => (
-              <div className="category-item">
+              <div className="category-item" key={index}>
                 <Button 
                 type="rounded" 
                 style={{background: item.color, border: 'none'}}
                 onClick={() => this.pickCategory(item)}
                 >
-                  <img src=""/>
+                  <div className="image"
+                    style={{
+                      background: `url('${item.image}') no-repeat center`,
+                      backgroundSize: 'cover'
+                    }}
+                  />
                 </Button>
                 <label>{item.name}</label>
               </div>

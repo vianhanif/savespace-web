@@ -5,13 +5,13 @@ export default class Cards extends Component {
   render() {
     const { props } = this
     return (
-      <div class="card">
-        <div class="card-img-top" style={{
-          backgroundSize: 'cover',
-          background: `url('${props.image}') no-repeat center`
+      <div className="card" {...props}>
+        <div className="card-img-top" style={{
+          background: `url('${props.image}') no-repeat center`,
+          backgroundSize: 'cover'
         }} alt={props.alt}>
         </div>
-        <div class="card-body">
+        <div className="card-body">
             <label className="title">{props.title || 'Space Title'}</label>
             <br/>
             <label className="caption">{props.description || 'Description'}</label>
