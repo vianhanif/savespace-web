@@ -32,7 +32,7 @@ class BottomMenu extends Component {
                       <NavLink
                         exact
                         to="/home"
-                        activeClassName="color-white"
+                        className="color-white"
                         style={{
                           width: '100%',
                           height: '100%',
@@ -61,7 +61,7 @@ class BottomMenu extends Component {
                       <NavLink
                         exact
                         to="/home"
-                        activeClassName="color-white"
+                        className="color-white"
                         style={{
                           width: '100%',
                           height: '100%',
@@ -76,7 +76,7 @@ class BottomMenu extends Component {
                       <NavLink
                         exact
                         to="/home"
-                        activeClassName="color-white"
+                        className="color-white"
                         style={{
                           width: '100%',
                           height: '100%',
@@ -88,7 +88,7 @@ class BottomMenu extends Component {
                     </div>
 
                     <div className="col-3">
-                      <NavLink to="/home" activeClassName="color-white">
+                      <NavLink to="/home" className="color-white">
                         <i className="mdi mdi-tune mdi-24px" />
                         {/*<div className="bottom-menu-title">Keranjang</div>*/}
                       </NavLink>

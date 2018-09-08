@@ -8,7 +8,7 @@ import CardGroup from '../../components/Cards/Group'
 class Spaces extends Component {
 
   componentWillMount() {
-    this.props.dispatch(spaceActions.getSpace())
+    this.props.dispatch(spaceActions.getSpaces())
   }
 
   render() {

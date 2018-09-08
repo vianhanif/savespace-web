@@ -31,7 +31,7 @@ class SignUp extends Component {
   render() {
     return (
       <Fragment>
-        <Header menus={this.state.menus} />
+        <Header title={this.props.App.title} menus={this.state.menus} />
         <Container gutter={GUTTER_TYPE.TOP}>
           <FormContainer>
             <Text type="text" placeholder="Username"/>
@@ -42,13 +42,13 @@ class SignUp extends Component {
               <Link className="link" to="#">OR SIGN UP WITH</Link>
             </div>
             <div className="action">
-              <Button type="rounded">
+              <Button type="rounded-reverse">
                 <FacebookIcon color="#454F63"/>
               </Button>
-              <Button type="rounded">
+              <Button type="rounded-reverse">
                 <TwitterIcon color="#454F63"/>
               </Button>
-              <Button type="rounded">
+              <Button type="rounded-reverse">
                 <GooglePlusIcon color="#454F63"/>
               </Button>
             </div>
@@ -67,7 +67,8 @@ const mapDispatchToProps = dispatch => ({
   // getSortedProducts: query => dispatch(getSortedProducts(query))
 });
 const mapStateToProps = state => ({
-  User: state.User
+  User: state.User,
+  App: state.App
   // sortBy: state.homeReducers.sortBy,
   // products: state.homeReducers.products,
   // headlines: state.homeReducers.headlines,

@@ -10,7 +10,7 @@ class Header extends Component {
         <header>
           <div className="topHeader">
             <div className="headerInner">
-              <label className="title">Save Space</label>
+              <label className="title">{this.props.title}</label>
             </div>
           </div>
           {this.props.menus && (

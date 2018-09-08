@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
 import Loader from '../../components/Loader';
 import * as userActions from '../../_actions/User'
+import * as appActions from '../../_actions/App'
 
 class Main extends Component {
   state = {
@@ -10,13 +11,13 @@ class Main extends Component {
   };
 
   componentWillMount() {
-    console.log(this.props)
-      this.props.dispatch(userActions.getUser())
-      .then(response => {
-          if (!this.props.User.data) {
-            this.props.history.push('/signin')
-          }
-      })
+    this.props.dispatch(appActions.setTitle('Save Space'))
+    this.props.dispatch(userActions.getUser())
+    .then(response => {
+        if (!this.props.User.data) {
+          this.props.history.push('/signin')
+        }
+    })
   }
 
   render() {

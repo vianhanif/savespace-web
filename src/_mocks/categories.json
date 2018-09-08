@@ -1,0 +1,29 @@
+{
+	"code": "SUCCESS",
+	"result": [
+		{
+			"id": "1",
+			"name": "OLAHRAGA",
+			"image": "",
+			"color": "#2580F1"
+		},
+		{
+			"id": "2",
+			"name": "CONVENTION",
+			"image": "",
+			"color": "#FB8026"
+		},
+		{
+			"id": "2",
+			"name": "MEETING",
+			"image": "",
+			"color": "#8BC34A"
+		},
+		{
+			"id": "2",
+			"name": "OTHERS",
+			"image": "",
+			"color": "#009688"
+		}
+	]
+}

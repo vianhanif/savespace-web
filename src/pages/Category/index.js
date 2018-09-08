@@ -5,14 +5,15 @@ import {Container} from '../../components/Layout/Layout';
 import {GUTTER_TYPE} from '../../components/Layout/LayoutStyled';
 import Loader from '../../components/Loader';
 import Header from '../../components/Header'
-import SpacesContainer from '../../_containers/Spaces'
-import BottomMenu from '../../components/BottomMenu'
 import FloatingGroup from '../../components/FloatingButton/Group'
 import FloatingButton from '../../components/FloatingButton'
-import { SearchIcon, CalendarDayIcon, FavoriteIcon } from 'mdi-react'
+import BottomMenu from '../../components/BottomMenu'
+import CategoriesContainer from '../../_containers/Categories'
 import * as appActions from '../../_actions/App'
+import { SearchIcon, CalendarDayIcon, FavoriteIcon } from 'mdi-react'
+import './style.scss'
 
-class Home extends Component {
+class Category extends Component {
   state = {
     fetched: true,
     floats: [
@@ -32,7 +33,7 @@ class Home extends Component {
   };
 
   componentWillMount() {
-    this.props.dispatch(appActions.setTitle('Home'))
+    this.props.dispatch(appActions.setTitle('Category'))
   }
 
   render() {
@@ -41,7 +42,8 @@ class Home extends Component {
       <Fragment>
         <Header title={this.props.App.title}/>
         <Container gutter={GUTTER_TYPE.BOTH}>
-          <SpacesContainer/>
+          <label className="header">Pick your main activity</label>
+          <CategoriesContainer/>
         </Container>
         <FloatingGroup>
           {this.state.floats.map((item, index) => (
@@ -60,8 +62,6 @@ const mapDispatchToProps = dispatch => ({
   dispatch
 });
 const mapStateToProps = state => ({
-  User: state.User,
-  Space: state.Space,
   App: state.App
 });
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Home));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Category));

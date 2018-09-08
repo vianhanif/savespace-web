@@ -30,7 +30,7 @@ class SignIn extends Component {
   render() {
     return (
       <Fragment>
-        <Header menus={this.state.menus} />
+        <Header title={this.props.App.title} menus={this.state.menus} />
         <Container gutter={GUTTER_TYPE.TOP}>
           <FormContainer>
             <Text type="text" placeholder="Username"/>
@@ -54,7 +54,8 @@ const mapDispatchToProps = dispatch => ({
   // getSortedProducts: query => dispatch(getSortedProducts(query))
 });
 const mapStateToProps = state => ({
-  User: state.User
+  User: state.User,
+  App: state.App
   // sortBy: state.homeReducers.sortBy,
   // products: state.homeReducers.products,
   // headlines: state.homeReducers.headlines,

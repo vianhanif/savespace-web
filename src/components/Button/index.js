@@ -9,7 +9,7 @@ export default class Button extends Component {
       onClick = () => {}
     }
     return (
-      <button onClick={onClick} type="button" className={classNames('btn', `btn-${this.props.type}`)}>
+      <button style={this.props.style} onClick={onClick} type="button" className={classNames('btn', `btn-${this.props.type}`)}>
           {this.props.children}
       </button>
     )
