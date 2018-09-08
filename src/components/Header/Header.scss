@@ -38,8 +38,9 @@ header {
     transition: all .3s;
     width: 100%;
     padding: 1rem 0;
-    border-bottom: 1px solid #e2e2e2;
     background: #009688;
+    border: 0px;
+    box-shadow: 0px 2px 6px rgba(99, 99, 99, 0.404);
     .headerInner {
       padding: 0 1rem;
       display: flex;
