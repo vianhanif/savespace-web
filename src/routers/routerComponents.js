@@ -6,7 +6,8 @@ export const routes = [
   {path: '/signin', component: require('../pages/SignIn').default},
   {path: '/signup', component: require('../pages/SignUp').default},
   {path: '/home', component: require('../pages/Home').default},
-  {path: '/category', component: require('../pages/Category').default}
+  {path: '/category', component: require('../pages/Category').default},
+  {path: '/sub_category', component: require('../pages/SubCategory').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {

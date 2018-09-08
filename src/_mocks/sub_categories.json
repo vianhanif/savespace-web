@@ -1,0 +1,17 @@
+{
+	"code": "SUCCESS",
+	"result": [
+		{
+			"id": "1",
+			"name": "MEETING ROOM",
+			"image": "",
+			"color": "#2580F1"
+		},
+		{
+			"id": "2",
+			"name": "CO WORKING",
+			"image": "",
+			"color": "#FB8026"
+		}
+	]
+}

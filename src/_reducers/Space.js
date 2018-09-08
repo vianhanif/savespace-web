@@ -8,7 +8,7 @@ export default function(
 ) {
   switch (action.type) {
     case types.SET_SPACES:
-        return {...state, list: [...state.list, ...action.payload]}
+      return {...state, list: [...state.list, ...action.payload]}
     case types.CLEAR_SPACES:
         return {...state, list: []}
     default:

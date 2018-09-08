@@ -18,3 +18,7 @@ export const pickCategory = (item) => {
     payload: item
   })
 }
+
+export const clearCategory = (item) => {
+  return dispatch => dispatch(types.CLEAR_CATEGORY)
+}
