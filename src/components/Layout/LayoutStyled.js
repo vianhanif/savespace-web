@@ -4,7 +4,8 @@ import styled from 'styled-components';
 export const GUTTER_TYPE = {
   TOP: 'top',
   BOTTOM: 'bottom',
-  NONE: 'none'
+  NONE: 'none',
+  BOTH: 'both'
 };
 
 export const Container = styled.div`
@@ -19,11 +20,13 @@ export const Container = styled.div`
         return `15px 0 120px`;
       case GUTTER_TYPE.NONE:
         return `0`;
+      case GUTTER_TYPE.BOTH:
+        return `90px 0 120px`
       default:
         return `65px 0 120px`;
     }
   }};
   @media screen and (max-width: 520px) {
-    margin: ${({noMargin}) => (noMargin ? 0 : `0 15px`)};
+    margin: ${({noMargin}) => (noMargin ? 0 : `0 0`)};
   }
 `;

@@ -4,13 +4,13 @@ import {Switch, Route} from 'react-router-dom';
 export const routes = [
   {path: '/', component: require('../pages/Main').default},
   {path: '/signin', component: require('../pages/SignIn').default},
-  {path: '/signup', component: require('../pages/SignUp').default}
+  {path: '/signup', component: require('../pages/SignUp').default},
+  {path: '/home', component: require('../pages/Home').default}
 ];
-const routesScrollToTop = [
-  '/',
-  '/signin',
-  '/signup'
-];
+let routesScrollToTop = [];
+routes.forEach(item => {
+  routesScrollToTop.push(item.path)
+})
 
 class RouterComponents extends Component {
   constructor(props) {

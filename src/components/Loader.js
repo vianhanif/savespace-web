@@ -14,7 +14,7 @@ const Loader = styled.div`
   .loader {
     position: absolute;
     margin: -18px 0 0 -18px;
-    border: 3.6px solid #ec9d00;
+    border: 3.6px solid #009688;
     box-sizing: border-box;
     overflow: hidden;
     width: 36px;
@@ -23,13 +23,13 @@ const Loader = styled.div`
     top: 50%;
     animation: loader-spin 2s linear infinite reverse;
     filter: url(#goo);
-    box-shadow: 0 0 0 1px #ec9d00 inset;
+    box-shadow: 0 0 0 1px #009688 inset;
   }
   .loader:before {
     content: '';
     position: absolute;
     animation: loader-spin 2s cubic-bezier(0.59, 0.25, 0.4, 0.69) infinite;
-    background: #ec9d00;
+    background: #009688;
     transform-origin: top center;
     border-radius: 50%;
     width: 150%;

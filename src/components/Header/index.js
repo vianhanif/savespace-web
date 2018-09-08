@@ -13,11 +13,13 @@ class Header extends Component {
               <label className="title">Save Space</label>
             </div>
           </div>
-          <div className="bottomHeader">
-            <div className="headerInner">
-              <FilterMenu menus={this.props.menus} />
+          {this.props.menus && (
+            <div className="bottomHeader">
+              <div className="headerInner">
+                <FilterMenu menus={this.props.menus} />
+              </div>
             </div>
-          </div>
+          )}
         </header>
       </Fragment>
     );

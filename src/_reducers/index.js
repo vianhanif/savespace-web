@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
-import {reducer as formReducer} from 'redux-form';
+import {reducer} from 'redux-form';
 import User from './User'
+import Space from './Space'
 
 export default combineReducers({
   User,
-  form: formReducer
+  Space,
+  form: reducer
 });

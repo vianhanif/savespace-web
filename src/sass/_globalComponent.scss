@@ -110,6 +110,13 @@ a:hover {
   color: $color-primary;
 }
 
+.color-white {
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+}
+
 .color-red {
   color: #d63230;
 }

@@ -38,7 +38,7 @@ class SignIn extends Component {
             <div className="action">
               <Link className="link" to="">Forgot Password</Link>
             </div>
-            <Button type="primary">CONTINUE</Button>
+            <Button type="primary" onClick={() => this.props.history.replace('/home')}>CONTINUE</Button>
           </FormContainer>
         </Container>
       </Fragment>

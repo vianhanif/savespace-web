@@ -1,0 +1,2326 @@
+{
+	"code": "SUCCESS",
+	"result": [{
+		"category": {
+			"id": "c18b84cd-1e6b-472b-a42b-ce822ebc5648",
+			"name": "Sport"
+		},
+		"spaces": [{
+			"id": "a84faee0-7575-4aaa-b581-a847667ae487",
+			"name": "Pahlevi and Sons",
+			"rate": 2,
+			"address": "Jl. Gajahmada",
+			"description": "Seamless responsive implementation",
+			"base_price": 388868,
+			"display_price": 616799,
+			"images": [{
+				"id": "c1d3f481-76a7-42a1-889e-88077b08fda0",
+				"original_path": "/system/space_images/image_data/c1d/3f4/81-/original/image.png",
+				"medium_path": "/system/space_images/image_data/c1d/3f4/81-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/c1d/3f4/81-/thumb/image.png"
+			}],
+			"phone": "+628653055230",
+			"space_facilities": [{
+				"id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "3573f0b7-7f64-4e2d-b940-fd2fc36516c1",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "85263fb9-48c5-48b5-8fc5-c29e1b9cdbb3",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "eff4cec9-62a5-494b-9b63-ba310bce68a7",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "71e07fd4-fbe3-4ffa-83ef-6e9ae4da8df7",
+				"code": "WIFI",
+				"name": "Wifi"
+			}],
+			"space_categories": [{
+				"id": "bd0789c8-e389-42a0-9f84-15358353c27e",
+				"name": "Sport"
+			}],
+			"space_types": [{
+				"id": "4a333012-cc19-4543-a625-7284b7c66677",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "803b1d50-2665-472f-9bf3-e335fe6b9b10",
+				"min_pax": 1,
+				"max_pax": 3
+			}],
+			"space_availabilities": [{
+				"id": "a9540574-f321-4f11-869c-0025b42eaf54",
+				"booking_type": "book_time",
+				"code": "EVERY_WEEKDAY",
+				"name": "Every Weekday"
+			}, {
+				"id": "fec4f144-95fb-4cef-8a0a-d32f42bf7ca8",
+				"booking_type": "book_day",
+				"code": "HOURLY",
+				"name": "Hourly"
+			}],
+			"space_schedules": [{
+				"id": "79db8bc3-66dc-4ec9-b162-c6f2d13bae63",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "bf1b35b8-4abb-42ab-b84c-49d5b4c5d3b2",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "5c9f3bc2-b37c-4748-8710-934dee7d25c9",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "e0a91a2d-2054-4675-82aa-853d63f3a916",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "36da5f3d-8123-415d-916b-d6d1f5c6dc1f",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "e3e2cc3b-1226-4a45-b56f-dd94e8588566",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "409561aa-7c1a-4a4c-9164-3774953d5ddd",
+				"name": "Suryatama-Indrajaya",
+				"rate": 2,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Self-enabling grid-enabled extranet",
+				"base_price": 776454,
+				"display_price": 315419,
+				"images": [{
+					"id": "dd0e7da3-ffd4-446b-88a1-cb1e195c4765",
+					"original_path": "/system/space_images/image_data/dd0/e7d/a3-/original/image.png",
+					"medium_path": "/system/space_images/image_data/dd0/e7d/a3-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/dd0/e7d/a3-/thumb/image.png"
+				}],
+				"phone": "0836-7739-6126",
+				"space_facilities": [{
+					"id": "b8a7e54a-1bee-46a4-aa65-6081cc5ef139",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "30823530-14f8-407b-b266-21b08509b82b",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "659482c9-7d22-4d73-ad1a-61d8afa469d6",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "bc537725-d8ab-4f66-a3dd-5ed9925a10c4",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "dabe639b-3274-4794-90c5-f144b4564742",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "5757a6c8-a62b-406a-81b4-3fd33eaab074",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2d735ce4-7836-40c8-92c2-838e052ac95b",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "58cda6b2-cb9a-4785-a665-50ee4e32cbf9",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "48c3ba13-86d0-4557-b19c-7573047bf6fb",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "0a5bfdc1-92a9-4cd5-b087-4d1c712cb721",
+					"booking_type": "book_day",
+					"code": "TWO_HOURS",
+					"name": "Two Hours"
+				}],
+				"space_schedules": [{
+					"id": "4460ab36-a8e7-483e-bf3a-7f799f4adc16",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "b76070bc-a6d6-4c98-83c5-08763a843010",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "ec6645f4-9f27-4fa1-ac52-107451ef72f0",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "c8af6845-86cf-49cb-889d-6b0aa0006676",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "a9eecf6f-2430-45cc-9a30-c0c251930a2b",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "65da1b04-4ff4-4435-ac41-e5dc3ff578dd",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "98d686a4-26f6-4f07-8e2c-74dc4b2c2886",
+				"name": "Ardianto-Budiono",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Triple-buffered background standardization",
+				"base_price": 222023,
+				"display_price": 462750,
+				"images": [{
+					"id": "7c0d8b25-0762-43e2-adb6-7436aaec2900",
+					"original_path": "/system/space_images/image_data/7c0/d8b/25-/original/image.png",
+					"medium_path": "/system/space_images/image_data/7c0/d8b/25-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/7c0/d8b/25-/thumb/image.png"
+				}],
+				"phone": "0855-2714-4451",
+				"space_facilities": [{
+					"id": "8484022d-9065-4ee6-b40b-aa1747cd3a33",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3bb4e79c-c6c9-4bf4-8401-9640776b9618",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "bcb13595-cd17-4f86-b1d1-301ca315d6c8",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "191e2f92-d01d-449f-94ce-6b85cdc2eec7",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "6bdda0c8-aea5-4888-b54b-9086476eb5fe",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "443f83e7-52c1-4e8c-9013-292e9b470e43",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2beae96e-61b5-477d-842a-59864394e8c9",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "25ac9a2a-de73-4d61-b019-381c537017ca",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "17bcb995-3446-4412-a678-0552174859ef",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "307f5a25-533d-4d68-a92d-196df6041533",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8d43a59c-0da8-45eb-9bda-18dea4822cec",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "044ccb72-e6fc-48ab-9edf-ea4499585a34",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f52dbbc8-97ba-4a35-8676-5655507fc5a2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "c13e0ad9-86e2-41b1-bbaf-7229c4dc9d3c",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "55a9d788-81ad-4fb5-ad4d-a211d555a621",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "233814ac-2873-48c6-a9cf-8bbfd17689e7",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}, {
+			"id": "409561aa-7c1a-4a4c-9164-3774953d5ddd",
+			"name": "Suryatama-Indrajaya",
+			"rate": 2,
+			"address": "Jl. Gatot Soebroto",
+			"description": "Self-enabling grid-enabled extranet",
+			"base_price": 776454,
+			"display_price": 315419,
+			"images": [{
+				"id": "dd0e7da3-ffd4-446b-88a1-cb1e195c4765",
+				"original_path": "/system/space_images/image_data/dd0/e7d/a3-/original/image.png",
+				"medium_path": "/system/space_images/image_data/dd0/e7d/a3-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/dd0/e7d/a3-/thumb/image.png"
+			}],
+			"phone": "0836-7739-6126",
+			"space_facilities": [{
+				"id": "b8a7e54a-1bee-46a4-aa65-6081cc5ef139",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "30823530-14f8-407b-b266-21b08509b82b",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "659482c9-7d22-4d73-ad1a-61d8afa469d6",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "bc537725-d8ab-4f66-a3dd-5ed9925a10c4",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "dabe639b-3274-4794-90c5-f144b4564742",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}],
+			"space_categories": [{
+				"id": "5757a6c8-a62b-406a-81b4-3fd33eaab074",
+				"name": "Sport"
+			}],
+			"space_types": [{
+				"id": "2d735ce4-7836-40c8-92c2-838e052ac95b",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "58cda6b2-cb9a-4785-a665-50ee4e32cbf9",
+				"min_pax": 1,
+				"max_pax": 10
+			}],
+			"space_availabilities": [{
+				"id": "48c3ba13-86d0-4557-b19c-7573047bf6fb",
+				"booking_type": "book_time",
+				"code": "ONLY_WEEKEND",
+				"name": "Only Weekend"
+			}, {
+				"id": "0a5bfdc1-92a9-4cd5-b087-4d1c712cb721",
+				"booking_type": "book_day",
+				"code": "TWO_HOURS",
+				"name": "Two Hours"
+			}],
+			"space_schedules": [{
+				"id": "4460ab36-a8e7-483e-bf3a-7f799f4adc16",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "b76070bc-a6d6-4c98-83c5-08763a843010",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "ec6645f4-9f27-4fa1-ac52-107451ef72f0",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "c8af6845-86cf-49cb-889d-6b0aa0006676",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "a9eecf6f-2430-45cc-9a30-c0c251930a2b",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "65da1b04-4ff4-4435-ac41-e5dc3ff578dd",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "a84faee0-7575-4aaa-b581-a847667ae487",
+				"name": "Pahlevi and Sons",
+				"rate": 2,
+				"address": "Jl. Gajahmada",
+				"description": "Seamless responsive implementation",
+				"base_price": 388868,
+				"display_price": 616799,
+				"images": [{
+					"id": "c1d3f481-76a7-42a1-889e-88077b08fda0",
+					"original_path": "/system/space_images/image_data/c1d/3f4/81-/original/image.png",
+					"medium_path": "/system/space_images/image_data/c1d/3f4/81-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/c1d/3f4/81-/thumb/image.png"
+				}],
+				"phone": "+628653055230",
+				"space_facilities": [{
+					"id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3573f0b7-7f64-4e2d-b940-fd2fc36516c1",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "85263fb9-48c5-48b5-8fc5-c29e1b9cdbb3",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "eff4cec9-62a5-494b-9b63-ba310bce68a7",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "71e07fd4-fbe3-4ffa-83ef-6e9ae4da8df7",
+					"code": "WIFI",
+					"name": "Wifi"
+				}],
+				"space_categories": [{
+					"id": "bd0789c8-e389-42a0-9f84-15358353c27e",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "4a333012-cc19-4543-a625-7284b7c66677",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "803b1d50-2665-472f-9bf3-e335fe6b9b10",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "a9540574-f321-4f11-869c-0025b42eaf54",
+					"booking_type": "book_time",
+					"code": "EVERY_WEEKDAY",
+					"name": "Every Weekday"
+				}, {
+					"id": "fec4f144-95fb-4cef-8a0a-d32f42bf7ca8",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "79db8bc3-66dc-4ec9-b162-c6f2d13bae63",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "bf1b35b8-4abb-42ab-b84c-49d5b4c5d3b2",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "5c9f3bc2-b37c-4748-8710-934dee7d25c9",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "e0a91a2d-2054-4675-82aa-853d63f3a916",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "36da5f3d-8123-415d-916b-d6d1f5c6dc1f",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "e3e2cc3b-1226-4a45-b56f-dd94e8588566",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "98d686a4-26f6-4f07-8e2c-74dc4b2c2886",
+				"name": "Ardianto-Budiono",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Triple-buffered background standardization",
+				"base_price": 222023,
+				"display_price": 462750,
+				"images": [{
+					"id": "7c0d8b25-0762-43e2-adb6-7436aaec2900",
+					"original_path": "/system/space_images/image_data/7c0/d8b/25-/original/image.png",
+					"medium_path": "/system/space_images/image_data/7c0/d8b/25-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/7c0/d8b/25-/thumb/image.png"
+				}],
+				"phone": "0855-2714-4451",
+				"space_facilities": [{
+					"id": "8484022d-9065-4ee6-b40b-aa1747cd3a33",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3bb4e79c-c6c9-4bf4-8401-9640776b9618",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "bcb13595-cd17-4f86-b1d1-301ca315d6c8",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "191e2f92-d01d-449f-94ce-6b85cdc2eec7",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "6bdda0c8-aea5-4888-b54b-9086476eb5fe",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "443f83e7-52c1-4e8c-9013-292e9b470e43",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2beae96e-61b5-477d-842a-59864394e8c9",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "25ac9a2a-de73-4d61-b019-381c537017ca",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "17bcb995-3446-4412-a678-0552174859ef",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "307f5a25-533d-4d68-a92d-196df6041533",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8d43a59c-0da8-45eb-9bda-18dea4822cec",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "044ccb72-e6fc-48ab-9edf-ea4499585a34",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f52dbbc8-97ba-4a35-8676-5655507fc5a2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "c13e0ad9-86e2-41b1-bbaf-7229c4dc9d3c",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "55a9d788-81ad-4fb5-ad4d-a211d555a621",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "233814ac-2873-48c6-a9cf-8bbfd17689e7",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}, {
+			"id": "98d686a4-26f6-4f07-8e2c-74dc4b2c2886",
+			"name": "Ardianto-Budiono",
+			"rate": 3,
+			"address": "Jl. Gatot Soebroto",
+			"description": "Triple-buffered background standardization",
+			"base_price": 222023,
+			"display_price": 462750,
+			"images": [{
+				"id": "7c0d8b25-0762-43e2-adb6-7436aaec2900",
+				"original_path": "/system/space_images/image_data/7c0/d8b/25-/original/image.png",
+				"medium_path": "/system/space_images/image_data/7c0/d8b/25-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/7c0/d8b/25-/thumb/image.png"
+			}],
+			"phone": "0855-2714-4451",
+			"space_facilities": [{
+				"id": "8484022d-9065-4ee6-b40b-aa1747cd3a33",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "3bb4e79c-c6c9-4bf4-8401-9640776b9618",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "bcb13595-cd17-4f86-b1d1-301ca315d6c8",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "191e2f92-d01d-449f-94ce-6b85cdc2eec7",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "6bdda0c8-aea5-4888-b54b-9086476eb5fe",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}],
+			"space_categories": [{
+				"id": "443f83e7-52c1-4e8c-9013-292e9b470e43",
+				"name": "Sport"
+			}],
+			"space_types": [{
+				"id": "2beae96e-61b5-477d-842a-59864394e8c9",
+				"name": "Small Room"
+			}],
+			"space_capacities": [{
+				"id": "25ac9a2a-de73-4d61-b019-381c537017ca",
+				"min_pax": 1,
+				"max_pax": 3
+			}],
+			"space_availabilities": [{
+				"id": "17bcb995-3446-4412-a678-0552174859ef",
+				"booking_type": "book_time",
+				"code": "EVERY_DAY",
+				"name": "Every Day"
+			}, {
+				"id": "307f5a25-533d-4d68-a92d-196df6041533",
+				"booking_type": "book_day",
+				"code": "HOURLY",
+				"name": "Hourly"
+			}],
+			"space_schedules": [{
+				"id": "8d43a59c-0da8-45eb-9bda-18dea4822cec",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "044ccb72-e6fc-48ab-9edf-ea4499585a34",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "f52dbbc8-97ba-4a35-8676-5655507fc5a2",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "c13e0ad9-86e2-41b1-bbaf-7229c4dc9d3c",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "55a9d788-81ad-4fb5-ad4d-a211d555a621",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "233814ac-2873-48c6-a9cf-8bbfd17689e7",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "a84faee0-7575-4aaa-b581-a847667ae487",
+				"name": "Pahlevi and Sons",
+				"rate": 2,
+				"address": "Jl. Gajahmada",
+				"description": "Seamless responsive implementation",
+				"base_price": 388868,
+				"display_price": 616799,
+				"images": [{
+					"id": "c1d3f481-76a7-42a1-889e-88077b08fda0",
+					"original_path": "/system/space_images/image_data/c1d/3f4/81-/original/image.png",
+					"medium_path": "/system/space_images/image_data/c1d/3f4/81-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/c1d/3f4/81-/thumb/image.png"
+				}],
+				"phone": "+628653055230",
+				"space_facilities": [{
+					"id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3573f0b7-7f64-4e2d-b940-fd2fc36516c1",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "85263fb9-48c5-48b5-8fc5-c29e1b9cdbb3",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "eff4cec9-62a5-494b-9b63-ba310bce68a7",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "71e07fd4-fbe3-4ffa-83ef-6e9ae4da8df7",
+					"code": "WIFI",
+					"name": "Wifi"
+				}],
+				"space_categories": [{
+					"id": "bd0789c8-e389-42a0-9f84-15358353c27e",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "4a333012-cc19-4543-a625-7284b7c66677",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "803b1d50-2665-472f-9bf3-e335fe6b9b10",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "a9540574-f321-4f11-869c-0025b42eaf54",
+					"booking_type": "book_time",
+					"code": "EVERY_WEEKDAY",
+					"name": "Every Weekday"
+				}, {
+					"id": "fec4f144-95fb-4cef-8a0a-d32f42bf7ca8",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "79db8bc3-66dc-4ec9-b162-c6f2d13bae63",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "bf1b35b8-4abb-42ab-b84c-49d5b4c5d3b2",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "5c9f3bc2-b37c-4748-8710-934dee7d25c9",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "e0a91a2d-2054-4675-82aa-853d63f3a916",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "36da5f3d-8123-415d-916b-d6d1f5c6dc1f",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "e3e2cc3b-1226-4a45-b56f-dd94e8588566",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "409561aa-7c1a-4a4c-9164-3774953d5ddd",
+				"name": "Suryatama-Indrajaya",
+				"rate": 2,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Self-enabling grid-enabled extranet",
+				"base_price": 776454,
+				"display_price": 315419,
+				"images": [{
+					"id": "dd0e7da3-ffd4-446b-88a1-cb1e195c4765",
+					"original_path": "/system/space_images/image_data/dd0/e7d/a3-/original/image.png",
+					"medium_path": "/system/space_images/image_data/dd0/e7d/a3-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/dd0/e7d/a3-/thumb/image.png"
+				}],
+				"phone": "0836-7739-6126",
+				"space_facilities": [{
+					"id": "b8a7e54a-1bee-46a4-aa65-6081cc5ef139",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "30823530-14f8-407b-b266-21b08509b82b",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "659482c9-7d22-4d73-ad1a-61d8afa469d6",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "bc537725-d8ab-4f66-a3dd-5ed9925a10c4",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "dabe639b-3274-4794-90c5-f144b4564742",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "5757a6c8-a62b-406a-81b4-3fd33eaab074",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2d735ce4-7836-40c8-92c2-838e052ac95b",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "58cda6b2-cb9a-4785-a665-50ee4e32cbf9",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "48c3ba13-86d0-4557-b19c-7573047bf6fb",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "0a5bfdc1-92a9-4cd5-b087-4d1c712cb721",
+					"booking_type": "book_day",
+					"code": "TWO_HOURS",
+					"name": "Two Hours"
+				}],
+				"space_schedules": [{
+					"id": "4460ab36-a8e7-483e-bf3a-7f799f4adc16",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "b76070bc-a6d6-4c98-83c5-08763a843010",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "ec6645f4-9f27-4fa1-ac52-107451ef72f0",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "c8af6845-86cf-49cb-889d-6b0aa0006676",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "a9eecf6f-2430-45cc-9a30-c0c251930a2b",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "65da1b04-4ff4-4435-ac41-e5dc3ff578dd",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}]
+	}, {
+		"category": {
+			"id": "cdbb5124-5fb2-455f-9189-920bc95ab1fb",
+			"name": "Other"
+		},
+		"spaces": [{
+			"id": "3c6c0897-32ce-4d07-bb08-d9b1e6d16326",
+			"name": "Darmadi-Marzuki",
+			"rate": 3,
+			"address": "Jl. Gatot Soebroto",
+			"description": "Synchronised directional portal",
+			"base_price": 725639,
+			"display_price": 773913,
+			"images": [{
+				"id": "f8bccdbf-cf09-49dc-a015-0eda2ae43a57",
+				"original_path": "/system/space_images/image_data/f8b/ccd/bf-/original/image.png",
+				"medium_path": "/system/space_images/image_data/f8b/ccd/bf-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/f8b/ccd/bf-/thumb/image.png"
+			}],
+			"phone": "+628794616752",
+			"space_facilities": [{
+				"id": "5f896e27-c1cf-4ff8-bf2c-1c33aae8e33e",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "27d6e806-aa41-486f-9b42-f4e2c14b270c",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "0997237d-32f0-4de0-be54-17fe0dea76b3",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "2769ca1a-1f22-4c2c-a258-fc4f641975a2",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "e6638110-950f-4199-b001-d4ffb6c918e5",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}],
+			"space_categories": [{
+				"id": "e769f022-4d35-4750-8eef-c5800e42a26c",
+				"name": "Other"
+			}],
+			"space_types": [{
+				"id": "ec9e7a31-3c03-4cfc-9511-08b788797035",
+				"name": "Medium Room"
+			}],
+			"space_capacities": [{
+				"id": "92137cea-acc9-4637-bbd5-2b4d908a1d8b",
+				"min_pax": 1,
+				"max_pax": 10
+			}],
+			"space_availabilities": [{
+				"id": "d0991246-ffec-4ba1-9588-8d62b841190c",
+				"booking_type": "book_time",
+				"code": "EVERY_DAY",
+				"name": "Every Day"
+			}, {
+				"id": "e806b423-b8b2-4ac5-81fd-56050a043850",
+				"booking_type": "book_day",
+				"code": "THREE_HOURS",
+				"name": "Three Hours"
+			}],
+			"space_schedules": [{
+				"id": "ad46dbc6-f951-4257-a688-89eebe601797",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "fa69f998-8768-4473-ae78-1c3fb733627e",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "6fbfe959-096b-4ac0-847b-06201e0be4dc",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "2b055001-bb52-435d-b1e6-989ce8c09ad7",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "220a6401-9acb-4f3b-9946-2ab0e4bd960f",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "7031bc7b-7d53-4628-ad9c-5201aec73b18",
+				"time": "2018-08-05",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "e9741559-c146-437f-90ef-13025aa06ff5",
+				"name": "Nugraha Group",
+				"rate": 0,
+				"address": "Jl. Kartini",
+				"description": "Synchronised analyzing Graphical User Interface",
+				"base_price": 706579,
+				"display_price": 944244,
+				"images": [{
+					"id": "ad8ebdfd-a672-49de-9b92-715b70141cb5",
+					"original_path": "/system/space_images/image_data/ad8/ebd/fd-/original/image.png",
+					"medium_path": "/system/space_images/image_data/ad8/ebd/fd-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/ad8/ebd/fd-/thumb/image.png"
+				}],
+				"phone": "085050255980",
+				"space_facilities": [{
+					"id": "695f9505-21a2-492e-8f41-b1a6b2cf6112",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "a563db7e-7776-41eb-b96e-43a4201e72f5",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "f93b317d-4893-4f06-a2db-5f556ef9c6c0",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "9c9e8de0-1a7c-44ab-a448-faa5386fb6c9",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "f9a40dab-f916-4204-8aee-31d52ae7474d",
+					"code": "WIFI",
+					"name": "Wifi"
+				}],
+				"space_categories": [{
+					"id": "f15f288d-8712-4ad7-9ccd-18b7d6e42db7",
+					"name": "Other"
+				}],
+				"space_types": [{
+					"id": "4973257c-b617-479e-b80b-a8e7cf705e52",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "200481b0-583b-4a1a-88da-e5d98a45b539",
+					"min_pax": 11,
+					"max_pax": 20
+				}],
+				"space_availabilities": [{
+					"id": "eb07c42b-dac8-463b-ae38-ecd5dec16623",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "9c25397e-7d7c-4ac1-bfde-c7ce75f5fb66",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "412f2b95-fc1f-457b-ae69-ab11be6ab346",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "f8827cdd-f473-498d-a5c4-93061113ee80",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "4794e72e-4e20-46a8-a4bf-c9eec8d2ed24",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "9500719a-d629-4b84-af9a-1d3c09bee2c3",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "655264d6-81e2-46cd-bde7-765c6f8d468a",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "a174e69a-7320-4bdd-b358-4783c59a0e45",
+					"time": "2018-08-05",
+					"is_available": true
+				}]
+			}, {
+				"id": "5bb1cc71-7e7b-4a4b-aeba-d075d80a0604",
+				"name": "Pradhana, Djunaedi and Taslim",
+				"rate": 5,
+				"address": "Jl. Diponegoro",
+				"description": "Synergized mission-critical internet solution",
+				"base_price": 581036,
+				"display_price": 716592,
+				"images": [{
+					"id": "d9c72b36-afbd-4221-8ece-e423255df4cd",
+					"original_path": "/system/space_images/image_data/d9c/72b/36-/original/image.png",
+					"medium_path": "/system/space_images/image_data/d9c/72b/36-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/d9c/72b/36-/thumb/image.png"
+				}],
+				"phone": "088958724132",
+				"space_facilities": [{
+					"id": "1c40859a-ff0f-4b3f-9423-dcbe224a3d61",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "61805ad9-82d3-46f6-8e85-1efe88efeca6",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "e4b18333-f4cd-43d3-8cbe-535674ae9276",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "6f3af549-782d-42e1-a73b-a928ff5d51cf",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "0e8d2d47-fa7c-43c5-bbcb-93fbd8cb1da4",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "c6b78c60-e91a-4b03-9594-bb6da0d2b7b2",
+					"name": "Other"
+				}],
+				"space_types": [{
+					"id": "badec2b5-bfde-4d3a-89ed-c5aef35ce794",
+					"name": "Medium Room"
+				}],
+				"space_capacities": [{
+					"id": "a36af44d-20a1-4abf-8892-fcdd582b6205",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "0c771eb1-31f8-4b29-a276-c571263264ca",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "0c703101-1aee-4587-b729-2939e45d4731",
+					"booking_type": "book_day",
+					"code": "FOUR_HOURS",
+					"name": "Four Hours"
+				}],
+				"space_schedules": [{
+					"id": "dd2d362d-dc0b-4ac8-a1ef-77cdc57cab7b",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "8741e6ce-8b23-4a4f-8926-567156da1d5d",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "6ddb18fd-1c44-4616-81f4-0144273b902a",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "7244002f-f6ce-440f-b398-5f921303e9b0",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "c888f700-c479-4e15-9172-c1f82ae1bb54",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "7cbabeb8-10ab-4826-8354-d720e4cab481",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}, {
+			"id": "e9741559-c146-437f-90ef-13025aa06ff5",
+			"name": "Nugraha Group",
+			"rate": 0,
+			"address": "Jl. Kartini",
+			"description": "Synchronised analyzing Graphical User Interface",
+			"base_price": 706579,
+			"display_price": 944244,
+			"images": [{
+				"id": "ad8ebdfd-a672-49de-9b92-715b70141cb5",
+				"original_path": "/system/space_images/image_data/ad8/ebd/fd-/original/image.png",
+				"medium_path": "/system/space_images/image_data/ad8/ebd/fd-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/ad8/ebd/fd-/thumb/image.png"
+			}],
+			"phone": "085050255980",
+			"space_facilities": [{
+				"id": "695f9505-21a2-492e-8f41-b1a6b2cf6112",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "a563db7e-7776-41eb-b96e-43a4201e72f5",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "f93b317d-4893-4f06-a2db-5f556ef9c6c0",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "9c9e8de0-1a7c-44ab-a448-faa5386fb6c9",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "f9a40dab-f916-4204-8aee-31d52ae7474d",
+				"code": "WIFI",
+				"name": "Wifi"
+			}],
+			"space_categories": [{
+				"id": "f15f288d-8712-4ad7-9ccd-18b7d6e42db7",
+				"name": "Other"
+			}],
+			"space_types": [{
+				"id": "4973257c-b617-479e-b80b-a8e7cf705e52",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "200481b0-583b-4a1a-88da-e5d98a45b539",
+				"min_pax": 11,
+				"max_pax": 20
+			}],
+			"space_availabilities": [{
+				"id": "eb07c42b-dac8-463b-ae38-ecd5dec16623",
+				"booking_type": "book_time",
+				"code": "ONLY_WEEKEND",
+				"name": "Only Weekend"
+			}, {
+				"id": "9c25397e-7d7c-4ac1-bfde-c7ce75f5fb66",
+				"booking_type": "book_day",
+				"code": "HOURLY",
+				"name": "Hourly"
+			}],
+			"space_schedules": [{
+				"id": "412f2b95-fc1f-457b-ae69-ab11be6ab346",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "f8827cdd-f473-498d-a5c4-93061113ee80",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "4794e72e-4e20-46a8-a4bf-c9eec8d2ed24",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "9500719a-d629-4b84-af9a-1d3c09bee2c3",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "655264d6-81e2-46cd-bde7-765c6f8d468a",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "a174e69a-7320-4bdd-b358-4783c59a0e45",
+				"time": "2018-08-05",
+				"is_available": true
+			}],
+			"related_spaces": [{
+				"id": "3c6c0897-32ce-4d07-bb08-d9b1e6d16326",
+				"name": "Darmadi-Marzuki",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Synchronised directional portal",
+				"base_price": 725639,
+				"display_price": 773913,
+				"images": [{
+					"id": "f8bccdbf-cf09-49dc-a015-0eda2ae43a57",
+					"original_path": "/system/space_images/image_data/f8b/ccd/bf-/original/image.png",
+					"medium_path": "/system/space_images/image_data/f8b/ccd/bf-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/f8b/ccd/bf-/thumb/image.png"
+				}],
+				"phone": "+628794616752",
+				"space_facilities": [{
+					"id": "5f896e27-c1cf-4ff8-bf2c-1c33aae8e33e",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "27d6e806-aa41-486f-9b42-f4e2c14b270c",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "0997237d-32f0-4de0-be54-17fe0dea76b3",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "2769ca1a-1f22-4c2c-a258-fc4f641975a2",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "e6638110-950f-4199-b001-d4ffb6c918e5",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}],
+				"space_categories": [{
+					"id": "e769f022-4d35-4750-8eef-c5800e42a26c",
+					"name": "Other"
+				}],
+				"space_types": [{
+					"id": "ec9e7a31-3c03-4cfc-9511-08b788797035",
+					"name": "Medium Room"
+				}],
+				"space_capacities": [{
+					"id": "92137cea-acc9-4637-bbd5-2b4d908a1d8b",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "d0991246-ffec-4ba1-9588-8d62b841190c",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "e806b423-b8b2-4ac5-81fd-56050a043850",
+					"booking_type": "book_day",
+					"code": "THREE_HOURS",
+					"name": "Three Hours"
+				}],
+				"space_schedules": [{
+					"id": "ad46dbc6-f951-4257-a688-89eebe601797",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "fa69f998-8768-4473-ae78-1c3fb733627e",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "6fbfe959-096b-4ac0-847b-06201e0be4dc",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "2b055001-bb52-435d-b1e6-989ce8c09ad7",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "220a6401-9acb-4f3b-9946-2ab0e4bd960f",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "7031bc7b-7d53-4628-ad9c-5201aec73b18",
+					"time": "2018-08-05",
+					"is_available": false
+				}]
+			}, {
+				"id": "5bb1cc71-7e7b-4a4b-aeba-d075d80a0604",
+				"name": "Pradhana, Djunaedi and Taslim",
+				"rate": 5,
+				"address": "Jl. Diponegoro",
+				"description": "Synergized mission-critical internet solution",
+				"base_price": 581036,
+				"display_price": 716592,
+				"images": [{
+					"id": "d9c72b36-afbd-4221-8ece-e423255df4cd",
+					"original_path": "/system/space_images/image_data/d9c/72b/36-/original/image.png",
+					"medium_path": "/system/space_images/image_data/d9c/72b/36-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/d9c/72b/36-/thumb/image.png"
+				}],
+				"phone": "088958724132",
+				"space_facilities": [{
+					"id": "1c40859a-ff0f-4b3f-9423-dcbe224a3d61",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "61805ad9-82d3-46f6-8e85-1efe88efeca6",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "e4b18333-f4cd-43d3-8cbe-535674ae9276",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "6f3af549-782d-42e1-a73b-a928ff5d51cf",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "0e8d2d47-fa7c-43c5-bbcb-93fbd8cb1da4",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "c6b78c60-e91a-4b03-9594-bb6da0d2b7b2",
+					"name": "Other"
+				}],
+				"space_types": [{
+					"id": "badec2b5-bfde-4d3a-89ed-c5aef35ce794",
+					"name": "Medium Room"
+				}],
+				"space_capacities": [{
+					"id": "a36af44d-20a1-4abf-8892-fcdd582b6205",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "0c771eb1-31f8-4b29-a276-c571263264ca",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "0c703101-1aee-4587-b729-2939e45d4731",
+					"booking_type": "book_day",
+					"code": "FOUR_HOURS",
+					"name": "Four Hours"
+				}],
+				"space_schedules": [{
+					"id": "dd2d362d-dc0b-4ac8-a1ef-77cdc57cab7b",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "8741e6ce-8b23-4a4f-8926-567156da1d5d",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "6ddb18fd-1c44-4616-81f4-0144273b902a",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "7244002f-f6ce-440f-b398-5f921303e9b0",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "c888f700-c479-4e15-9172-c1f82ae1bb54",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "7cbabeb8-10ab-4826-8354-d720e4cab481",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}, {
+			"id": "5bb1cc71-7e7b-4a4b-aeba-d075d80a0604",
+			"name": "Pradhana, Djunaedi and Taslim",
+			"rate": 5,
+			"address": "Jl. Diponegoro",
+			"description": "Synergized mission-critical internet solution",
+			"base_price": 581036,
+			"display_price": 716592,
+			"images": [{
+				"id": "d9c72b36-afbd-4221-8ece-e423255df4cd",
+				"original_path": "/system/space_images/image_data/d9c/72b/36-/original/image.png",
+				"medium_path": "/system/space_images/image_data/d9c/72b/36-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/d9c/72b/36-/thumb/image.png"
+			}],
+			"phone": "088958724132",
+			"space_facilities": [{
+				"id": "1c40859a-ff0f-4b3f-9423-dcbe224a3d61",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "61805ad9-82d3-46f6-8e85-1efe88efeca6",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "e4b18333-f4cd-43d3-8cbe-535674ae9276",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "6f3af549-782d-42e1-a73b-a928ff5d51cf",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "0e8d2d47-fa7c-43c5-bbcb-93fbd8cb1da4",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}],
+			"space_categories": [{
+				"id": "c6b78c60-e91a-4b03-9594-bb6da0d2b7b2",
+				"name": "Other"
+			}],
+			"space_types": [{
+				"id": "badec2b5-bfde-4d3a-89ed-c5aef35ce794",
+				"name": "Medium Room"
+			}],
+			"space_capacities": [{
+				"id": "a36af44d-20a1-4abf-8892-fcdd582b6205",
+				"min_pax": 1,
+				"max_pax": 10
+			}],
+			"space_availabilities": [{
+				"id": "0c771eb1-31f8-4b29-a276-c571263264ca",
+				"booking_type": "book_time",
+				"code": "EVERY_DAY",
+				"name": "Every Day"
+			}, {
+				"id": "0c703101-1aee-4587-b729-2939e45d4731",
+				"booking_type": "book_day",
+				"code": "FOUR_HOURS",
+				"name": "Four Hours"
+			}],
+			"space_schedules": [{
+				"id": "dd2d362d-dc0b-4ac8-a1ef-77cdc57cab7b",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "8741e6ce-8b23-4a4f-8926-567156da1d5d",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "6ddb18fd-1c44-4616-81f4-0144273b902a",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "7244002f-f6ce-440f-b398-5f921303e9b0",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "c888f700-c479-4e15-9172-c1f82ae1bb54",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "7cbabeb8-10ab-4826-8354-d720e4cab481",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "3c6c0897-32ce-4d07-bb08-d9b1e6d16326",
+				"name": "Darmadi-Marzuki",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Synchronised directional portal",
+				"base_price": 725639,
+				"display_price": 773913,
+				"images": [{
+					"id": "f8bccdbf-cf09-49dc-a015-0eda2ae43a57",
+					"original_path": "/system/space_images/image_data/f8b/ccd/bf-/original/image.png",
+					"medium_path": "/system/space_images/image_data/f8b/ccd/bf-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/f8b/ccd/bf-/thumb/image.png"
+				}],
+				"phone": "+628794616752",
+				"space_facilities": [{
+					"id": "5f896e27-c1cf-4ff8-bf2c-1c33aae8e33e",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "27d6e806-aa41-486f-9b42-f4e2c14b270c",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "0997237d-32f0-4de0-be54-17fe0dea76b3",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "2769ca1a-1f22-4c2c-a258-fc4f641975a2",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "e6638110-950f-4199-b001-d4ffb6c918e5",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}],
+				"space_categories": [{
+					"id": "e769f022-4d35-4750-8eef-c5800e42a26c",
+					"name": "Other"
+				}],
+				"space_types": [{
+					"id": "ec9e7a31-3c03-4cfc-9511-08b788797035",
+					"name": "Medium Room"
+				}],
+				"space_capacities": [{
+					"id": "92137cea-acc9-4637-bbd5-2b4d908a1d8b",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "d0991246-ffec-4ba1-9588-8d62b841190c",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "e806b423-b8b2-4ac5-81fd-56050a043850",
+					"booking_type": "book_day",
+					"code": "THREE_HOURS",
+					"name": "Three Hours"
+				}],
+				"space_schedules": [{
+					"id": "ad46dbc6-f951-4257-a688-89eebe601797",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "fa69f998-8768-4473-ae78-1c3fb733627e",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "6fbfe959-096b-4ac0-847b-06201e0be4dc",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "2b055001-bb52-435d-b1e6-989ce8c09ad7",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "220a6401-9acb-4f3b-9946-2ab0e4bd960f",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "7031bc7b-7d53-4628-ad9c-5201aec73b18",
+					"time": "2018-08-05",
+					"is_available": false
+				}]
+			}, {
+				"id": "e9741559-c146-437f-90ef-13025aa06ff5",
+				"name": "Nugraha Group",
+				"rate": 0,
+				"address": "Jl. Kartini",
+				"description": "Synchronised analyzing Graphical User Interface",
+				"base_price": 706579,
+				"display_price": 944244,
+				"images": [{
+					"id": "ad8ebdfd-a672-49de-9b92-715b70141cb5",
+					"original_path": "/system/space_images/image_data/ad8/ebd/fd-/original/image.png",
+					"medium_path": "/system/space_images/image_data/ad8/ebd/fd-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/ad8/ebd/fd-/thumb/image.png"
+				}],
+				"phone": "085050255980",
+				"space_facilities": [{
+					"id": "695f9505-21a2-492e-8f41-b1a6b2cf6112",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "a563db7e-7776-41eb-b96e-43a4201e72f5",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "f93b317d-4893-4f06-a2db-5f556ef9c6c0",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "9c9e8de0-1a7c-44ab-a448-faa5386fb6c9",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "f9a40dab-f916-4204-8aee-31d52ae7474d",
+					"code": "WIFI",
+					"name": "Wifi"
+				}],
+				"space_categories": [{
+					"id": "f15f288d-8712-4ad7-9ccd-18b7d6e42db7",
+					"name": "Other"
+				}],
+				"space_types": [{
+					"id": "4973257c-b617-479e-b80b-a8e7cf705e52",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "200481b0-583b-4a1a-88da-e5d98a45b539",
+					"min_pax": 11,
+					"max_pax": 20
+				}],
+				"space_availabilities": [{
+					"id": "eb07c42b-dac8-463b-ae38-ecd5dec16623",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "9c25397e-7d7c-4ac1-bfde-c7ce75f5fb66",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "412f2b95-fc1f-457b-ae69-ab11be6ab346",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "f8827cdd-f473-498d-a5c4-93061113ee80",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "4794e72e-4e20-46a8-a4bf-c9eec8d2ed24",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "9500719a-d629-4b84-af9a-1d3c09bee2c3",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "655264d6-81e2-46cd-bde7-765c6f8d468a",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "a174e69a-7320-4bdd-b358-4783c59a0e45",
+					"time": "2018-08-05",
+					"is_available": true
+				}]
+			}]
+		}]
+	}, {
+		"category": {
+			"id": "e7d58f22-1192-41e8-b25a-d43d866d8478",
+			"name": "Meeting Room"
+		},
+		"spaces": [{
+			"id": "cebba65a-7c1a-4461-92ee-06f500a0fc04",
+			"name": "Fauzi Group",
+			"rate": 3,
+			"address": "Jl. Ahmad Yani",
+			"description": "Innovative executive core",
+			"base_price": 818651,
+			"display_price": 895028,
+			"images": [{
+				"id": "f3c9f8f7-a4d2-4fe2-8b41-99c8f8804ffe",
+				"original_path": "/system/space_images/image_data/f3c/9f8/f7-/original/image.png",
+				"medium_path": "/system/space_images/image_data/f3c/9f8/f7-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/f3c/9f8/f7-/thumb/image.png"
+			}],
+			"phone": "+628511167719",
+			"space_facilities": [{
+				"id": "53d3879e-9548-4a38-a5a9-991a8db24bdb",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "52ac83ab-fd5a-4a96-85fc-89feb3429787",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "962f3128-ff20-4101-a4f1-c75d6cc1e364",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "f85baeb4-54c4-41ad-9b4d-d909140c275a",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "2f717a76-5fa1-47a3-988d-b1f2c5db9aae",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}],
+			"space_categories": [{
+				"id": "3169aeb9-e97b-4651-aed2-1ff7360ec085",
+				"name": "Meeting Room"
+			}],
+			"space_types": [{
+				"id": "ac9adf0a-ec8a-4574-90e8-8c025e9a8f59",
+				"name": "Small Room"
+			}],
+			"space_capacities": [{
+				"id": "8c166f1e-d44f-4372-b5aa-4c6972fab274",
+				"min_pax": 1,
+				"max_pax": 10
+			}],
+			"space_availabilities": [{
+				"id": "c08755d1-b769-4dac-9ddc-4d3761eb5748",
+				"booking_type": "book_time",
+				"code": "EVERY_DAY",
+				"name": "Every Day"
+			}, {
+				"id": "9346ba3d-f550-4f97-ab92-70994ff4e733",
+				"booking_type": "book_day",
+				"code": "FOUR_HOURS",
+				"name": "Four Hours"
+			}],
+			"space_schedules": [{
+				"id": "9a495772-4965-4b58-a433-cdbceac368df",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "f5f6b679-710c-4af0-bd22-e66de1ac4ff3",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "35c856f4-ae0b-4bd5-b2ac-4734d837af86",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "7804bc90-7722-4381-8ca6-9556962e0604",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "09ed315c-a034-41bc-b62f-2b9d78d9e6d2",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "318d1e40-a7c0-4174-9002-f5cfdd3758e3",
+				"time": "2018-08-05",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "3a3e3c50-4c58-44cf-a96b-9423efdd4ecd",
+				"name": "Gunajaya, Rusli and Fachri",
+				"rate": 0,
+				"address": "Jl. Juanda",
+				"description": "Integrated responsive infrastructure",
+				"base_price": 926894,
+				"display_price": 840695,
+				"images": [{
+					"id": "f32ab917-15ec-4b7b-88f6-3d6a9d8d0929",
+					"original_path": "/system/space_images/image_data/f32/ab9/17-/original/image.png",
+					"medium_path": "/system/space_images/image_data/f32/ab9/17-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/f32/ab9/17-/thumb/image.png"
+				}],
+				"phone": "0883-8505-4388",
+				"space_facilities": [{
+					"id": "e8380763-6dfa-4b4f-b4a3-c79136edce0d",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "ae57ba77-3598-487a-8d36-5a2a0ed0f1c5",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "56896a2f-1974-4c89-857c-e66d95a31d0b",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "a4acbbbf-f785-458b-ae26-c36e5c85fe7b",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "03d5b6fc-7c61-4d8a-87bf-7743b6c2c49f",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "1974e7b3-1f4e-45c8-a190-70af46624938",
+					"name": "Meeting Room"
+				}],
+				"space_types": [{
+					"id": "03b841a8-a917-4001-b3f4-7d3e393a6524",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "a7f03c4b-c3c6-4cbc-8264-c874c93c0b0b",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "29c85970-3bc8-4626-b13f-9ec9eb578c5b",
+					"booking_type": "book_time",
+					"code": "EVERY_WEEKDAY",
+					"name": "Every Weekday"
+				}, {
+					"id": "69bbdc07-bda5-4d2e-bf20-22a356e987e6",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "a3d9d10b-4109-4e7f-8339-5968648362ad",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "4ce2b90d-623d-4ae8-a323-6b94c4455ca3",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "3294b657-9b55-4bdd-b6f1-70b7850c5474",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "756311d5-53d6-4c1e-8930-8775c6c165af",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "d1061594-6e29-4adc-834e-29a96f435b55",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "2815b7d5-b270-45fa-a68b-9155158addf0",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "89f05026-79ce-4d96-a934-dc6d8477e3d5",
+				"name": "Junaedi Group",
+				"rate": 0,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Optimized bi-directional algorithm",
+				"base_price": 753433,
+				"display_price": 94381,
+				"images": [{
+					"id": "99305afb-3d34-4eef-bbf0-41d266c1837f",
+					"original_path": "/system/space_images/image_data/993/05a/fb-/original/image.png",
+					"medium_path": "/system/space_images/image_data/993/05a/fb-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/993/05a/fb-/thumb/image.png"
+				}],
+				"phone": "+628769353527",
+				"space_facilities": [{
+					"id": "8a08447c-1b60-4dd7-8a69-c413a43d358d",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "9e4695c8-4af2-4940-b3f7-b88062ec9a35",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "35bd275e-d37b-412a-a0bd-29e6e81792ab",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "732d471b-5e3e-4849-9ac9-120f5c8cd7c2",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "9b7d1e46-3b47-4c0c-a384-63bc98c702c2",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}],
+				"space_categories": [{
+					"id": "d7d51622-bd25-4b33-9639-8177c34f2ee7",
+					"name": "Meeting Room"
+				}],
+				"space_types": [{
+					"id": "7fdaa75c-cae6-438e-a929-9d37cfe1ed4b",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "9a1a387a-5b11-450c-9a56-67f3a3ed38c1",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "5641bbbd-7a0d-4866-8fe1-004131a0d90f",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "b53c4e09-c7b1-4cbe-a774-84c37f46b430",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8f8a61e1-36fd-48d6-9637-03fc058c60bc",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "a34e00c8-c74f-483d-a245-b4e6232831b3",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "aea4f5b8-1d32-4450-a887-ef5ed98a2f28",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "d990078e-675b-4b1f-adf3-0944f82494c2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "2ec70607-1a28-46fb-9542-797838167cbb",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "bf219f75-b3a0-4877-95c6-892a16d6c991",
+					"time": "2018-08-05",
+					"is_available": false
+				}]
+			}]
+		}, {
+			"id": "3a3e3c50-4c58-44cf-a96b-9423efdd4ecd",
+			"name": "Gunajaya, Rusli and Fachri",
+			"rate": 0,
+			"address": "Jl. Juanda",
+			"description": "Integrated responsive infrastructure",
+			"base_price": 926894,
+			"display_price": 840695,
+			"images": [{
+				"id": "f32ab917-15ec-4b7b-88f6-3d6a9d8d0929",
+				"original_path": "/system/space_images/image_data/f32/ab9/17-/original/image.png",
+				"medium_path": "/system/space_images/image_data/f32/ab9/17-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/f32/ab9/17-/thumb/image.png"
+			}],
+			"phone": "0883-8505-4388",
+			"space_facilities": [{
+				"id": "e8380763-6dfa-4b4f-b4a3-c79136edce0d",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "ae57ba77-3598-487a-8d36-5a2a0ed0f1c5",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "56896a2f-1974-4c89-857c-e66d95a31d0b",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "a4acbbbf-f785-458b-ae26-c36e5c85fe7b",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "03d5b6fc-7c61-4d8a-87bf-7743b6c2c49f",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}],
+			"space_categories": [{
+				"id": "1974e7b3-1f4e-45c8-a190-70af46624938",
+				"name": "Meeting Room"
+			}],
+			"space_types": [{
+				"id": "03b841a8-a917-4001-b3f4-7d3e393a6524",
+				"name": "Small Room"
+			}],
+			"space_capacities": [{
+				"id": "a7f03c4b-c3c6-4cbc-8264-c874c93c0b0b",
+				"min_pax": 1,
+				"max_pax": 3
+			}],
+			"space_availabilities": [{
+				"id": "29c85970-3bc8-4626-b13f-9ec9eb578c5b",
+				"booking_type": "book_time",
+				"code": "EVERY_WEEKDAY",
+				"name": "Every Weekday"
+			}, {
+				"id": "69bbdc07-bda5-4d2e-bf20-22a356e987e6",
+				"booking_type": "book_day",
+				"code": "HOURLY",
+				"name": "Hourly"
+			}],
+			"space_schedules": [{
+				"id": "a3d9d10b-4109-4e7f-8339-5968648362ad",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "4ce2b90d-623d-4ae8-a323-6b94c4455ca3",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "3294b657-9b55-4bdd-b6f1-70b7850c5474",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "756311d5-53d6-4c1e-8930-8775c6c165af",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "d1061594-6e29-4adc-834e-29a96f435b55",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "2815b7d5-b270-45fa-a68b-9155158addf0",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "cebba65a-7c1a-4461-92ee-06f500a0fc04",
+				"name": "Fauzi Group",
+				"rate": 3,
+				"address": "Jl. Ahmad Yani",
+				"description": "Innovative executive core",
+				"base_price": 818651,
+				"display_price": 895028,
+				"images": [{
+					"id": "f3c9f8f7-a4d2-4fe2-8b41-99c8f8804ffe",
+					"original_path": "/system/space_images/image_data/f3c/9f8/f7-/original/image.png",
+					"medium_path": "/system/space_images/image_data/f3c/9f8/f7-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/f3c/9f8/f7-/thumb/image.png"
+				}],
+				"phone": "+628511167719",
+				"space_facilities": [{
+					"id": "53d3879e-9548-4a38-a5a9-991a8db24bdb",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "52ac83ab-fd5a-4a96-85fc-89feb3429787",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "962f3128-ff20-4101-a4f1-c75d6cc1e364",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "f85baeb4-54c4-41ad-9b4d-d909140c275a",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "2f717a76-5fa1-47a3-988d-b1f2c5db9aae",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "3169aeb9-e97b-4651-aed2-1ff7360ec085",
+					"name": "Meeting Room"
+				}],
+				"space_types": [{
+					"id": "ac9adf0a-ec8a-4574-90e8-8c025e9a8f59",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "8c166f1e-d44f-4372-b5aa-4c6972fab274",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "c08755d1-b769-4dac-9ddc-4d3761eb5748",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "9346ba3d-f550-4f97-ab92-70994ff4e733",
+					"booking_type": "book_day",
+					"code": "FOUR_HOURS",
+					"name": "Four Hours"
+				}],
+				"space_schedules": [{
+					"id": "9a495772-4965-4b58-a433-cdbceac368df",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f5f6b679-710c-4af0-bd22-e66de1ac4ff3",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "35c856f4-ae0b-4bd5-b2ac-4734d837af86",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "7804bc90-7722-4381-8ca6-9556962e0604",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "09ed315c-a034-41bc-b62f-2b9d78d9e6d2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "318d1e40-a7c0-4174-9002-f5cfdd3758e3",
+					"time": "2018-08-05",
+					"is_available": false
+				}]
+			}, {
+				"id": "89f05026-79ce-4d96-a934-dc6d8477e3d5",
+				"name": "Junaedi Group",
+				"rate": 0,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Optimized bi-directional algorithm",
+				"base_price": 753433,
+				"display_price": 94381,
+				"images": [{
+					"id": "99305afb-3d34-4eef-bbf0-41d266c1837f",
+					"original_path": "/system/space_images/image_data/993/05a/fb-/original/image.png",
+					"medium_path": "/system/space_images/image_data/993/05a/fb-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/993/05a/fb-/thumb/image.png"
+				}],
+				"phone": "+628769353527",
+				"space_facilities": [{
+					"id": "8a08447c-1b60-4dd7-8a69-c413a43d358d",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "9e4695c8-4af2-4940-b3f7-b88062ec9a35",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "35bd275e-d37b-412a-a0bd-29e6e81792ab",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "732d471b-5e3e-4849-9ac9-120f5c8cd7c2",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "9b7d1e46-3b47-4c0c-a384-63bc98c702c2",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}],
+				"space_categories": [{
+					"id": "d7d51622-bd25-4b33-9639-8177c34f2ee7",
+					"name": "Meeting Room"
+				}],
+				"space_types": [{
+					"id": "7fdaa75c-cae6-438e-a929-9d37cfe1ed4b",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "9a1a387a-5b11-450c-9a56-67f3a3ed38c1",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "5641bbbd-7a0d-4866-8fe1-004131a0d90f",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "b53c4e09-c7b1-4cbe-a774-84c37f46b430",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8f8a61e1-36fd-48d6-9637-03fc058c60bc",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "a34e00c8-c74f-483d-a245-b4e6232831b3",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "aea4f5b8-1d32-4450-a887-ef5ed98a2f28",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "d990078e-675b-4b1f-adf3-0944f82494c2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "2ec70607-1a28-46fb-9542-797838167cbb",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "bf219f75-b3a0-4877-95c6-892a16d6c991",
+					"time": "2018-08-05",
+					"is_available": false
+				}]
+			}]
+		}, {
+			"id": "89f05026-79ce-4d96-a934-dc6d8477e3d5",
+			"name": "Junaedi Group",
+			"rate": 0,
+			"address": "Jl. Gatot Soebroto",
+			"description": "Optimized bi-directional algorithm",
+			"base_price": 753433,
+			"display_price": 94381,
+			"images": [{
+				"id": "99305afb-3d34-4eef-bbf0-41d266c1837f",
+				"original_path": "/system/space_images/image_data/993/05a/fb-/original/image.png",
+				"medium_path": "/system/space_images/image_data/993/05a/fb-/medium/image.png",
+				"thumb_path": "/system/space_images/image_data/993/05a/fb-/thumb/image.png"
+			}],
+			"phone": "+628769353527",
+			"space_facilities": [{
+				"id": "8a08447c-1b60-4dd7-8a69-c413a43d358d",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}, {
+				"id": "9e4695c8-4af2-4940-b3f7-b88062ec9a35",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "35bd275e-d37b-412a-a0bd-29e6e81792ab",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "732d471b-5e3e-4849-9ac9-120f5c8cd7c2",
+				"code": "LOBBY",
+				"name": "Lobby"
+			}, {
+				"id": "9b7d1e46-3b47-4c0c-a384-63bc98c702c2",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}],
+			"space_categories": [{
+				"id": "d7d51622-bd25-4b33-9639-8177c34f2ee7",
+				"name": "Meeting Room"
+			}],
+			"space_types": [{
+				"id": "7fdaa75c-cae6-438e-a929-9d37cfe1ed4b",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "9a1a387a-5b11-450c-9a56-67f3a3ed38c1",
+				"min_pax": 1,
+				"max_pax": 3
+			}],
+			"space_availabilities": [{
+				"id": "5641bbbd-7a0d-4866-8fe1-004131a0d90f",
+				"booking_type": "book_time",
+				"code": "ONLY_WEEKEND",
+				"name": "Only Weekend"
+			}, {
+				"id": "b53c4e09-c7b1-4cbe-a774-84c37f46b430",
+				"booking_type": "book_day",
+				"code": "HOURLY",
+				"name": "Hourly"
+			}],
+			"space_schedules": [{
+				"id": "8f8a61e1-36fd-48d6-9637-03fc058c60bc",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "a34e00c8-c74f-483d-a245-b4e6232831b3",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "aea4f5b8-1d32-4450-a887-ef5ed98a2f28",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "d990078e-675b-4b1f-adf3-0944f82494c2",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "2ec70607-1a28-46fb-9542-797838167cbb",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "bf219f75-b3a0-4877-95c6-892a16d6c991",
+				"time": "2018-08-05",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "cebba65a-7c1a-4461-92ee-06f500a0fc04",
+				"name": "Fauzi Group",
+				"rate": 3,
+				"address": "Jl. Ahmad Yani",
+				"description": "Innovative executive core",
+				"base_price": 818651,
+				"display_price": 895028,
+				"images": [{
+					"id": "f3c9f8f7-a4d2-4fe2-8b41-99c8f8804ffe",
+					"original_path": "/system/space_images/image_data/f3c/9f8/f7-/original/image.png",
+					"medium_path": "/system/space_images/image_data/f3c/9f8/f7-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/f3c/9f8/f7-/thumb/image.png"
+				}],
+				"phone": "+628511167719",
+				"space_facilities": [{
+					"id": "53d3879e-9548-4a38-a5a9-991a8db24bdb",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "52ac83ab-fd5a-4a96-85fc-89feb3429787",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "962f3128-ff20-4101-a4f1-c75d6cc1e364",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "f85baeb4-54c4-41ad-9b4d-d909140c275a",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "2f717a76-5fa1-47a3-988d-b1f2c5db9aae",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "3169aeb9-e97b-4651-aed2-1ff7360ec085",
+					"name": "Meeting Room"
+				}],
+				"space_types": [{
+					"id": "ac9adf0a-ec8a-4574-90e8-8c025e9a8f59",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "8c166f1e-d44f-4372-b5aa-4c6972fab274",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "c08755d1-b769-4dac-9ddc-4d3761eb5748",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "9346ba3d-f550-4f97-ab92-70994ff4e733",
+					"booking_type": "book_day",
+					"code": "FOUR_HOURS",
+					"name": "Four Hours"
+				}],
+				"space_schedules": [{
+					"id": "9a495772-4965-4b58-a433-cdbceac368df",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f5f6b679-710c-4af0-bd22-e66de1ac4ff3",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "35c856f4-ae0b-4bd5-b2ac-4734d837af86",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "7804bc90-7722-4381-8ca6-9556962e0604",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "09ed315c-a034-41bc-b62f-2b9d78d9e6d2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "318d1e40-a7c0-4174-9002-f5cfdd3758e3",
+					"time": "2018-08-05",
+					"is_available": false
+				}]
+			}, {
+				"id": "3a3e3c50-4c58-44cf-a96b-9423efdd4ecd",
+				"name": "Gunajaya, Rusli and Fachri",
+				"rate": 0,
+				"address": "Jl. Juanda",
+				"description": "Integrated responsive infrastructure",
+				"base_price": 926894,
+				"display_price": 840695,
+				"images": [{
+					"id": "f32ab917-15ec-4b7b-88f6-3d6a9d8d0929",
+					"original_path": "/system/space_images/image_data/f32/ab9/17-/original/image.png",
+					"medium_path": "/system/space_images/image_data/f32/ab9/17-/medium/image.png",
+					"thumb_path": "/system/space_images/image_data/f32/ab9/17-/thumb/image.png"
+				}],
+				"phone": "0883-8505-4388",
+				"space_facilities": [{
+					"id": "e8380763-6dfa-4b4f-b4a3-c79136edce0d",
+					"code": "LOBBY",
+					"name": "Lobby"
+				}, {
+					"id": "ae57ba77-3598-487a-8d36-5a2a0ed0f1c5",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "56896a2f-1974-4c89-857c-e66d95a31d0b",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "a4acbbbf-f785-458b-ae26-c36e5c85fe7b",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "03d5b6fc-7c61-4d8a-87bf-7743b6c2c49f",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "1974e7b3-1f4e-45c8-a190-70af46624938",
+					"name": "Meeting Room"
+				}],
+				"space_types": [{
+					"id": "03b841a8-a917-4001-b3f4-7d3e393a6524",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "a7f03c4b-c3c6-4cbc-8264-c874c93c0b0b",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "29c85970-3bc8-4626-b13f-9ec9eb578c5b",
+					"booking_type": "book_time",
+					"code": "EVERY_WEEKDAY",
+					"name": "Every Weekday"
+				}, {
+					"id": "69bbdc07-bda5-4d2e-bf20-22a356e987e6",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "a3d9d10b-4109-4e7f-8339-5968648362ad",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "4ce2b90d-623d-4ae8-a323-6b94c4455ca3",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "3294b657-9b55-4bdd-b6f1-70b7850c5474",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "756311d5-53d6-4c1e-8930-8775c6c165af",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "d1061594-6e29-4adc-834e-29a96f435b55",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "2815b7d5-b270-45fa-a68b-9155158addf0",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}]
+	}]
+}
