@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import classNames from 'classnames';
 import WindowCloseIcon from 'mdi-react/WindowCloseIcon';
 import './FilterModal.scss';
-import {default as config} from '../../../_constants/variableConstants';
+import {default as config} from '../../../_constants/Variable';
 import { Loader } from '../..';
 
 class FilterModal extends Component {

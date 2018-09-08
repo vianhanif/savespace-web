@@ -1,5 +1,5 @@
 import axios from 'axios';
-import variableConstants from '../_constants/variableConstants';
+import variableConstants from '../_constants/Variable';
 import cartConstants from '../_constants/cartConstants';
 
 export function addItemToCart(productData, history) {

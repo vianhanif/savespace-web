@@ -1,6 +1,12 @@
 .filterMenuItem {
+  .line {
+    height: 4px;
+  }
+  .active {
+    background: linear-gradient(to right, rgba(52,85,247,1) 0%, rgba(93,159,240,1) 54%, rgba(24,208,240,1) 100%);
+  }
   flex-grow: 1;
-  padding: 11px 12px;
+  padding: 12px 0px 0px 0px;
   cursor: pointer;
   background: #ffffff;
   border: 1px solid #dfe3e6;
@@ -20,7 +26,8 @@
   &__text {
     color: #152934;
     margin-right: 23px;
-    font-size: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
     display: inline-flex;
     vertical-align: middle;
   }

@@ -8,10 +8,8 @@ import App from './App';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './sass/App.scss';
-import {initGA} from "./shared/utils/Analytics";
 
 // import registerServiceWorker from "./registerServiceWorker";
-initGA();
 ReactDOM.render(
   <CookiesProvider>
     <Provider store={Store}>

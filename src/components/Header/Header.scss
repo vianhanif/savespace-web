@@ -7,12 +7,21 @@ header {
   .headerInner {
     max-width: 480px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .title {
+      text-align: center;
+      font-size: 1.3rem;
+      width: 100vw;
+      margin: 0;
+      color: #ffffff;
+    }
   }
   .bottomHeader {
     z-index: 1;
     background: #ffffff;
     position: absolute;
-    top: 49px;
+    top: 65px;
     left: 0;
     transition: all .3s;
     width: 100%;
@@ -28,9 +37,9 @@ header {
     left: 0;
     transition: all .3s;
     width: 100%;
-    padding: 0.58rem 0;
+    padding: 1rem 0;
     border-bottom: 1px solid #e2e2e2;
-    background: #ffffff;
+    background: #009688;
     .headerInner {
       padding: 0 1rem;
       display: flex;

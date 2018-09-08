@@ -1,8 +1,0 @@
-const categoryConstants = {
-    GET_LIST_CATEGORY: 'GET_LIST_CATEGORY',
-    GET_LIST_PRODUCT_BY_CATEGORY: 'GET_LIST_PRODUCT_BY_CATEGORY',
-    FETCH_LIST_PRODUCT_BY_CATEGORY: 'FETCH_LIST_PRODUCT_BY_CATEGORY',
-  };
-  
-  export default categoryConstants;
-  
