@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom';
 
-import Main from '../pages/Main';
-import SignIn from '../pages/SignIn'
-
 export const routes = [
-  {path: '/', component: Main},
-  {path: '/signin', component: SignIn}
-
+  {path: '/', component: require('../pages/Main').default},
+  {path: '/signin', component: require('../pages/SignIn').default},
+  {path: '/signup', component: require('../pages/SignUp').default}
 ];
 const routesScrollToTop = [
   '/',
-  '/signin'
+  '/signin',
+  '/signup'
 ];
 
 class RouterComponents extends Component {

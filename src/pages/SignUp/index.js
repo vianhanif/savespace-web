@@ -7,22 +7,23 @@ import Header from '../../components/Header'
 import Text from '../../components/Form/Text'
 import FormContainer from '../../components/Form/FormContainer'
 import Button from '../../components/Button'
+import { TwitterIcon, FacebookIcon, GooglePlusIcon } from 'mdi-react'
 import './style.scss'
 
-class SignIn extends Component {
+class SignUp extends Component {
   state = {
     menus: [
       {
         text: 'SIGN IN',
         onClick: () => {this.props.history.replace('/signin')},
         Icon: null,
-        active: true
+        active: false
       },
       {
         text: 'SIGN UP',
         onClick: () => {this.props.history.replace('/signup')},
         Icon: null,
-        active: false
+        active: true
       }
     ]
   };
@@ -34,11 +35,23 @@ class SignIn extends Component {
         <Container gutter={GUTTER_TYPE.TOP}>
           <FormContainer>
             <Text type="text" placeholder="Username"/>
+            <Text type="email" placeholder="Email"/>
             <Text type="password" placeholder="Password"/>
-            <div className="action">
-              <Link className="link" to="">Forgot Password</Link>
-            </div>
             <Button type="primary">CONTINUE</Button>
+            <div className="action">
+              <Link className="link" to="#">OR SIGN UP WITH</Link>
+            </div>
+            <div className="action">
+              <Button type="rounded">
+                <FacebookIcon color="#454F63"/>
+              </Button>
+              <Button type="rounded">
+                <TwitterIcon color="#454F63"/>
+              </Button>
+              <Button type="rounded">
+                <GooglePlusIcon color="#454F63"/>
+              </Button>
+            </div>
           </FormContainer>
         </Container>
       </Fragment>
@@ -61,4 +74,4 @@ const mapStateToProps = state => ({
   // fetched: state.homeReducers.fetched,
   // scrollFetch: state.homeReducers.isFetchPagination
 });
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SignIn));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SignUp));
