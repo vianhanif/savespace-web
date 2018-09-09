@@ -57,9 +57,8 @@ class ProgressiveImage extends Component {
       backgroundSize: this.props.cover ? 'cover' : 'contain',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
-      position: 'absolute',
-      top: 0,
-      left: 0
+      ['position']: this.props.absolute ? 'absolute': 'initial',
+      zIndex: 0
     };
     return <div style={{ ...style }} onClick={this.props.onClick}/>;
   }

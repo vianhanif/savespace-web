@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ProgressiveImage from '../../shared/components/ProgressiveImage/ProgressiveImage'
 import './style.scss'
 
 export default class Cards extends Component {
@@ -6,10 +7,8 @@ export default class Cards extends Component {
     const { props } = this
     return (
       <div className="card" {...props}>
-        <div className="card-img-top" style={{
-          background: `url('${props.image}') no-repeat center`,
-          backgroundSize: 'cover'
-        }} alt={props.alt}>
+        <div className="card-img-top">
+          <ProgressiveImage cover image={props.image} preview={props.image} />
         </div>
         <div className="card-body">
             <label className="title">{props.title || 'Space Title'}</label>

@@ -7,6 +7,7 @@ import './style.scss'
 import { StarRateIcon, HeartIcon } from 'mdi-react'
 import { CurrencyFormatter } from '../../_helpers/CurrencyFormatter'
 import FloatingBtn from '../../components/FloatingButton'
+import ProgressiveImage from '../../shared/components/ProgressiveImage/ProgressiveImage'
 
 class Space extends Component {
 
@@ -31,10 +32,8 @@ class Space extends Component {
       <Fragment>
         {data && (
           <div className="detail-container">
-             <div className="header" style={{
-               background: `url('${data.images[0].original_path}') no-repeat center`,
-               backgroundSize: 'cover'
-             }}>
+             <div className="header">
+              <ProgressiveImage cover absolute image={data.images[0].original_path} preview={data.images[0].original_path} />
                 <div className="text">
                   <label className="title">
                     {data.name}

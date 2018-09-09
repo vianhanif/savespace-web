@@ -14,13 +14,16 @@
 
 .card {
     cursor: pointer;
+    @media screen and (max-width: 375px) {
+        width: 100%;    
+    }
     width: 180px;
     border: none;
     margin: 10px 10px !important;
     border-radius: 6px !important;
     .card-img-top {
         height: 130px;
-        background-color: rgb(134, 134, 134);
+        background-color: #ffffff;
         border-top-left-radius: 6px !important;
         border-top-right-radius: 6px !important;
     }
@@ -47,13 +50,15 @@
             opacity: .6;
         }
     }
-    &:nth-child(even) {
-        margin-left: 0px !important;
-    }
-    &:nth-child(2) {
-        margin-left: 10px !important;
-    }
-    &:nth-child(odd) {
-        margin-right: 0px !important;
+    @media screen and (min-width: 375px) {
+        &:nth-child(even) {
+            margin-left: 0px !important;
+        }
+        &:nth-child(2) {
+            margin-left: 10px !important;
+        }
+        &:nth-child(odd) {
+            margin-right: 0px !important;
+        }
     }
 }
