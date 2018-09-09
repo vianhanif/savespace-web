@@ -5,7 +5,7 @@ import Button from '../../components/Button'
 import * as categoryActions from '../../_actions/Category'
 import './style.scss'
 
-class Spaces extends Component {
+class Categories extends Component {
 
   componentWillMount() {
     this.props.dispatch(categoryActions.getCategories())
@@ -17,7 +17,6 @@ class Spaces extends Component {
   }
 
   render() {
-    let { Space } = this.props
     return (
       <Fragment>
         {this.props.Category.list.length > 0 && (
@@ -53,4 +52,4 @@ const mapStateToProps = state => ({
   Category: state.Category
 });
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Spaces));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Categories));

@@ -6,6 +6,7 @@ import {GUTTER_TYPE} from '../../components/Layout/LayoutStyled';
 import Loader from '../../components/Loader';
 import Header from '../../components/Header'
 import BottomMenu from '../../components/BottomMenu'
+import SpaceContainer from '../../_containers/Space'
 import * as appActions from '../../_actions/App'
 
 class DetailSpace extends Component {
@@ -14,7 +15,7 @@ class DetailSpace extends Component {
   };
 
   componentWillMount() {
-    this.props.dispatch(appActions.setTitle('DetailSpace'))
+    this.props.dispatch(appActions.setTitle('Detail Space'))
   }
 
   render() {
@@ -22,7 +23,8 @@ class DetailSpace extends Component {
      (
       <Fragment>
         <Header title={this.props.App.title}/>
-        <Container gutter={GUTTER_TYPE.BOTH}>
+        <Container gutter={GUTTER_TYPE.NONE}>
+          <SpaceContainer/>
         </Container>
         <BottomMenu confirm={[
           {
@@ -30,7 +32,7 @@ class DetailSpace extends Component {
             onClick: () => {this.props.history.replace('/home')}
           },
           {
-            text: 'Jadwal',
+            text: 'Lihat Jadwal',
             onClick: () => {}
           }
         ]}/>
