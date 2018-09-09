@@ -91,5 +91,9 @@
         }
       }
     }
+    &-bottom {
+      @extend .detail;
+      padding-bottom: 50px;
+    }
   }
 }

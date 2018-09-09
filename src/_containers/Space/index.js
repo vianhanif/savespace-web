@@ -72,7 +72,7 @@ class Space extends Component {
               </div>
               <div className="devider"></div>
             </div>
-            <div className="detail">
+            <div className="detail-bottom">
                <div className="row">
                   <div className="col-xs-12">
                     <label>Location</label>
