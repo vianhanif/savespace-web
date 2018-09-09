@@ -22,7 +22,7 @@ class Spaces extends Component {
     return (
       <Fragment>
         {this.props.SubCategory.list.length > 0 && (
-          <div className="category-container">
+          <div className="sub-category-container">
             {this.props.SubCategory.list.map((item, index) => (
               <div className="category-item" key={index}>
                 <Button 

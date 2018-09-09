@@ -1,4 +1,4 @@
-.category{
+.sub-category{
   &-container {
     display: flex;
     flex-direction: row;
@@ -6,14 +6,25 @@
     justify-content: center;
   }
   &-item {
-    margin: 10px 10px;
+    margin: 10px 0;
     display: grid;
+    @media screen and (max-width: 375px) {
+      width: 8rem;
+      height: 100%;
+    }
+      width: 10rem;
+      height: 13rem;
     .btn {
+      @media screen and (max-width: 375px) {
+        width: 8rem;
+        height: 100%;
+      }
       width: 10rem;
       height: 10rem;
       display: flex;
       justify-content: center;
       align-content: center;
+      padding: 0px;
       .image {
         height: 90px;
         width: 90px;
@@ -25,7 +36,13 @@
       text-align: center;
       margin: 10px 0;
       font-weight: 600;
-      font-size: 1.2rem;
+      font-size: 1rem;
+    }
+    &:nth-child(odd) {
+      margin-right: 10px;
+    }
+    &:nth-child(even) {
+      margin-left: 10px;
     }
   }
 }
