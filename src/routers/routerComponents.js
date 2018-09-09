@@ -30,7 +30,7 @@ class RouterComponents extends Component {
     if (nextProps.location.state && nextProps.location.state.isScrollToTop) {
       this.scrollToTop();
     }
-    if (routesScrollToTop.includes(pathname)) {
+    if (routesScrollToTop.includes(pathname) || routesScrollToTop.includes(':')) {
       this.scrollToTop();
     }
 
