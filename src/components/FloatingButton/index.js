@@ -4,7 +4,7 @@ import './style.scss'
 export default class FloatingButton extends Component {
   render() {
     return (
-      <div className="floating-btn" onClick={this.props.onClick}>
+      <div style={this.props.style} className="floating-btn" onClick={this.props.onClick}>
         {this.props.children}
       </div>
     )
