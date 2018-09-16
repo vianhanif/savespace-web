@@ -9,7 +9,8 @@ export const routes = [
   {path: '/category', component: require('../pages/Category').default},
   {path: '/category/:id/sub_categories', component: require('../pages/SubCategory').default},
   {path: '/detail/:id', component: require('../pages/DetailSpace').default},
-  {path: '/detail/:id/schedules', component: require('../pages/SchedulePicker').default}
+  {path: '/detail/:id/schedules', component: require('../pages/SchedulePicker').default},
+  {path: '/history', component: require('../pages/History').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {

@@ -1,0 +1,25 @@
+{
+	"code": "SUCCESS",
+	"result": [
+    {
+      "id": "a84faee0-7575-4aaa-b581-a847667ae487",
+      "owned": false,
+      "date": "Minggu, 16 Juli 2018",
+      "room": "Bintaro Cyber, Bintaro",
+      "start_time": "11.00 pm",
+      "end_time": "15.00 pm",
+      "status": "Diterima",
+      "image": "https://picsum.photos/1910/1000?random"
+    },
+    {
+      "id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+      "owned": true,
+      "date": "Minggu, 16 Juli 2018",
+      "room": "Bintaro Cyber, Bintaro",
+      "start_time": "11.00 pm",
+      "end_time": "15.00 pm",
+      "status": "Menunggu Konfirmasi",
+      "image": "https://picsum.photos/1910/1000?random"
+    }
+  ]
+}

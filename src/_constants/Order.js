@@ -1,0 +1,5 @@
+export const GET_ORDERS = 'GET_ORDERS'
+export const SET_ORDERS = 'SET_ORDERS'
+export const CLEAR_ORDERS = 'CLEAR_ORDERS'
+export const PICK_ORDER = 'PICK_ORDER'
+export const CLEAR_ORDER = 'CLEAR_ORDER'

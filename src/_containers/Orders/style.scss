@@ -1,0 +1,102 @@
+.order {
+  &-container {
+    
+  }
+  &-item {
+    box-shadow: 0px 0px 6px rgb(214, 214, 214);
+    border: 1px solid rgb(161, 161, 161);
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: 15px 0;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    .content {
+      width: 60%;
+      .date {
+        font-size: 1.3rem;
+        color: #009688;
+        width: 100%;
+        margin: 0px;
+      }
+      .room {
+        font-size: .9rem;
+      }
+      .line {
+        background-color: #009688;
+        height: 1px;
+        width: 50px;
+      }
+      .time {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+        .dot {
+          background-color: rgb(167, 167, 167);
+          height: 5px;
+          width: 5px;
+          border-radius: 100%;
+          margin: 0 8px;
+        }
+        .value {
+          margin: 0px;
+          font-size: .9rem;
+        }
+      }
+      .status {
+        font-size: .9rem;
+        width: 100%;
+      }
+      .btn {
+        margin: 3px 0;
+        width: initial;
+        background-color: hsl(209, 87%, 45%);
+        box-shadow: none;
+        color: #ffffff;
+        padding: 5px 25px;
+        border-radius: 2px;
+        font-size: .8rem;
+      }
+    }
+    .image-container {
+      display: flex;
+      flex-direction: row;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      width: 40%;
+      .image-view {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        div {
+          border-radius: 10px;
+          border: 1px solid rgb(92, 92, 92);
+        }
+      }
+      .action {
+        margin: 0;
+        .btn {
+          margin: 0 10px;
+          &:last-child {
+            margin: 0px;
+          }
+        }
+      }
+      .btn {
+        align-self: flex-end;
+        width: initial;
+        height: 30px;
+        padding: 0px 25px;
+        margin: 0px;
+        box-shadow: none;
+        border-radius: 2px;
+        font-size: .8rem;
+        color: #ffffff;
+        &-primary {
+          background: #FB8026;
+        }
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@ class Category extends Component {
       },
       {
         icon: <CalendarDayIcon color="#ffffff"/>,
-        route: () => this.props.history.push('/home')
+        route: () => this.props.history.push('/history')
       },
       {
         icon: <FavoriteIcon color="#ffffff"/>,

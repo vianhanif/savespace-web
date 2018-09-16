@@ -5,6 +5,7 @@ import User from './User'
 import Space from './Space'
 import Category from './Category'
 import SubCategory from './SubCategory'
+import Order from './Order'
 
 export default combineReducers({
   App,
@@ -12,5 +13,6 @@ export default combineReducers({
   Space,
   Category,
   SubCategory,
+  Order,
   form: reducer
 });
