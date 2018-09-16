@@ -11,7 +11,7 @@ import * as appActions from '../../_actions/App'
 
 class DetailSpace extends Component {
   state = {
-    fetched: true,
+    fetched: true
   };
 
   componentWillMount() {
@@ -33,7 +33,7 @@ class DetailSpace extends Component {
           },
           {
             text: 'Lihat Jadwal',
-            onClick: () => {}
+            onClick: () => {this.props.history.push(`/detail/${this.props.match.params.id}/schedules`)}
           }
         ]}/>
       </Fragment>

@@ -8,7 +8,8 @@ export const routes = [
   {path: '/home', component: require('../pages/Home').default},
   {path: '/category', component: require('../pages/Category').default},
   {path: '/category/:id/sub_categories', component: require('../pages/SubCategory').default},
-  {path: '/detail/:id', component: require('../pages/DetailSpace').default}
+  {path: '/detail/:id', component: require('../pages/DetailSpace').default},
+  {path: '/detail/:id/schedules', component: require('../pages/SchedulePicker').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {
