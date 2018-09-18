@@ -9,7 +9,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './sass/App.scss';
 
-// import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
+
 ReactDOM.render(
   <CookiesProvider>
     <Provider store={Store}>
@@ -18,4 +19,4 @@ ReactDOM.render(
   </CookiesProvider>,
   document.getElementById('root')
 );
-// registerServiceWorker();
+registerServiceWorker();
