@@ -68,8 +68,8 @@ class SchedulePicker extends Component {
             ))}
           </div>
           <div className="submit">
-            <Button>Cancel</Button>
-            <Button>Ok</Button>
+            <Button onClick={() => this.props.history.goBack()}>Cancel</Button>
+            <Button onClick={() => this.props.history.push(`/detail/${this.props.match.params.id}/booking_form`)}>Ok</Button>
           </div>
         </Container>
         <BottomMenu/>
