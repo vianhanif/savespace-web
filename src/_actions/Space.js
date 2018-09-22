@@ -12,6 +12,17 @@ export function getSpaces() {
   };
 }
 
+export function getMySpaces() {
+  return async dispatch => {
+    // let response = await axios.get(JSON.stringify(require().default))
+    let response = require('../_mocks/my_spaces.json')
+    if (response.code === 'SUCCESS') {
+        return dispatch({ type: types.SET_MY_SPACES, payload: response.result })
+    }
+    return dispatch({ type: types.SET_MY_SPACES, payload: [] })
+  };
+}
+
 export const getSpace = (id) => {
   return async dispatch => {
     // let response = await axios.get(JSON.stringify(require().default))

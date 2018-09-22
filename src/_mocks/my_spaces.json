@@ -1,0 +1,777 @@
+{
+	"code": "SUCCESS",
+	"result": [
+		{
+			"id": "a84faee0-7575-4aaa-b581-a847667ae487",
+			"name": "Pahlevi and Sons",
+			"rate": 2,
+			"address": "Jl. Gajahmada",
+			"description": "Seamless responsive implementation",
+			"base_price": 388868,
+			"display_price": 616799,
+			"images": [{
+				"id": "c1d3f481-76a7-42a1-889e-88077b08fda0",
+				"original_path": "https://picsum.photos/1910/1000?random",
+				"medium_path": "https://picsum.photos/1910/1000?random",
+				"thumb_path": "https://picsum.photos/1910/1000?random"
+			}],
+			"phone": "+628653055230",
+			"space_facilities": [{
+				"id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "3573f0b7-7f64-4e2d-b940-fd2fc36516c1",
+				"code": "WIFI",
+				"name": "Wifi"
+			}, {
+				"id": "85263fb9-48c5-48b5-8fc5-c29e1b9cdbb3",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "eff4cec9-62a5-494b-9b63-ba310bce68a7",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "71e07fd4-fbe3-4ffa-83ef-6e9ae4da8df7",
+				"code": "WIFI",
+				"name": "Wifi"
+			}],
+			"space_categories": [{
+				"id": "bd0789c8-e389-42a0-9f84-15358353c27e",
+				"name": "Sport"
+			}],
+			"space_types": [{
+				"id": "4a333012-cc19-4543-a625-7284b7c66677",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "803b1d50-2665-472f-9bf3-e335fe6b9b10",
+				"min_pax": 1,
+				"max_pax": 3
+			}],
+			"space_availabilities": [{
+				"id": "a9540574-f321-4f11-869c-0025b42eaf54",
+				"booking_type": "book_time",
+				"code": "EVERY_WEEKDAY",
+				"name": "Every Weekday"
+			}, {
+				"id": "fec4f144-95fb-4cef-8a0a-d32f42bf7ca8",
+				"booking_type": "book_day",
+				"code": "HOURLY",
+				"name": "Hourly"
+			}],
+			"space_schedules": [{
+				"id": "79db8bc3-66dc-4ec9-b162-c6f2d13bae63",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "bf1b35b8-4abb-42ab-b84c-49d5b4c5d3b2",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "5c9f3bc2-b37c-4748-8710-934dee7d25c9",
+				"time": "2018-08-06",
+				"is_available": true
+			}, {
+				"id": "e0a91a2d-2054-4675-82aa-853d63f3a916",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "36da5f3d-8123-415d-916b-d6d1f5c6dc1f",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "e3e2cc3b-1226-4a45-b56f-dd94e8588566",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "409561aa-7c1a-4a4c-9164-3774953d5ddd",
+				"name": "Suryatama-Indrajaya",
+				"rate": 2,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Self-enabling grid-enabled extranet",
+				"base_price": 776454,
+				"display_price": 315419,
+				"images": [{
+					"id": "dd0e7da3-ffd4-446b-88a1-cb1e195c4765",
+					"original_path": "https://picsum.photos/1910/1000?random",
+					"medium_path": "https://picsum.photos/1910/1000?random",
+					"thumb_path": "https://picsum.photos/1910/1000?random"
+				}],
+				"phone": "0836-7739-6126",
+				"space_facilities": [{
+					"id": "b8a7e54a-1bee-46a4-aa65-6081cc5ef139",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "30823530-14f8-407b-b266-21b08509b82b",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "659482c9-7d22-4d73-ad1a-61d8afa469d6",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "bc537725-d8ab-4f66-a3dd-5ed9925a10c4",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "dabe639b-3274-4794-90c5-f144b4564742",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}],
+				"space_categories": [{
+					"id": "5757a6c8-a62b-406a-81b4-3fd33eaab074",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2d735ce4-7836-40c8-92c2-838e052ac95b",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "58cda6b2-cb9a-4785-a665-50ee4e32cbf9",
+					"min_pax": 1,
+					"max_pax": 10
+				}],
+				"space_availabilities": [{
+					"id": "48c3ba13-86d0-4557-b19c-7573047bf6fb",
+					"booking_type": "book_time",
+					"code": "ONLY_WEEKEND",
+					"name": "Only Weekend"
+				}, {
+					"id": "0a5bfdc1-92a9-4cd5-b087-4d1c712cb721",
+					"booking_type": "book_day",
+					"code": "TWO_HOURS",
+					"name": "Two Hours"
+				}],
+				"space_schedules": [{
+					"id": "4460ab36-a8e7-483e-bf3a-7f799f4adc16",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "b76070bc-a6d6-4c98-83c5-08763a843010",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "ec6645f4-9f27-4fa1-ac52-107451ef72f0",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "c8af6845-86cf-49cb-889d-6b0aa0006676",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "a9eecf6f-2430-45cc-9a30-c0c251930a2b",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "65da1b04-4ff4-4435-ac41-e5dc3ff578dd",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "98d686a4-26f6-4f07-8e2c-74dc4b2c2886",
+				"name": "Ardianto-Budiono",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Triple-buffered background standardization",
+				"base_price": 222023,
+				"display_price": 462750,
+				"images": [{
+					"id": "7c0d8b25-0762-43e2-adb6-7436aaec2900",
+					"original_path": "https://picsum.photos/1910/1000?random",
+					"medium_path": "https://picsum.photos/1910/1000?random",
+					"thumb_path": "https://picsum.photos/1910/1000?random"
+				}],
+				"phone": "0855-2714-4451",
+				"space_facilities": [{
+					"id": "8484022d-9065-4ee6-b40b-aa1747cd3a33",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3bb4e79c-c6c9-4bf4-8401-9640776b9618",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "bcb13595-cd17-4f86-b1d1-301ca315d6c8",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "191e2f92-d01d-449f-94ce-6b85cdc2eec7",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "6bdda0c8-aea5-4888-b54b-9086476eb5fe",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "443f83e7-52c1-4e8c-9013-292e9b470e43",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2beae96e-61b5-477d-842a-59864394e8c9",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "25ac9a2a-de73-4d61-b019-381c537017ca",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "17bcb995-3446-4412-a678-0552174859ef",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "307f5a25-533d-4d68-a92d-196df6041533",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8d43a59c-0da8-45eb-9bda-18dea4822cec",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "044ccb72-e6fc-48ab-9edf-ea4499585a34",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f52dbbc8-97ba-4a35-8676-5655507fc5a2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "c13e0ad9-86e2-41b1-bbaf-7229c4dc9d3c",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "55a9d788-81ad-4fb5-ad4d-a211d555a621",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "233814ac-2873-48c6-a9cf-8bbfd17689e7",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}, 
+		{
+			"id": "409561aa-7c1a-4a4c-9164-3774953d5ddd",
+			"name": "Suryatama-Indrajaya",
+			"rate": 2,
+			"address": "Jl. Gatot Soebroto",
+			"description": "Self-enabling grid-enabled extranet",
+			"base_price": 776454,
+			"display_price": 315419,
+			"images": [{
+				"id": "dd0e7da3-ffd4-446b-88a1-cb1e195c4765",
+				"original_path": "https://picsum.photos/1910/1000?random",
+				"medium_path": "https://picsum.photos/1910/1000?random",
+				"thumb_path": "https://picsum.photos/1910/1000?random"
+			}],
+			"phone": "0836-7739-6126",
+			"space_facilities": [{
+				"id": "b8a7e54a-1bee-46a4-aa65-6081cc5ef139",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "30823530-14f8-407b-b266-21b08509b82b",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "659482c9-7d22-4d73-ad1a-61d8afa469d6",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "bc537725-d8ab-4f66-a3dd-5ed9925a10c4",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "dabe639b-3274-4794-90c5-f144b4564742",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}],
+			"space_categories": [{
+				"id": "5757a6c8-a62b-406a-81b4-3fd33eaab074",
+				"name": "Sport"
+			}],
+			"space_types": [{
+				"id": "2d735ce4-7836-40c8-92c2-838e052ac95b",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "58cda6b2-cb9a-4785-a665-50ee4e32cbf9",
+				"min_pax": 1,
+				"max_pax": 10
+			}],
+			"space_availabilities": [{
+				"id": "48c3ba13-86d0-4557-b19c-7573047bf6fb",
+				"booking_type": "book_time",
+				"code": "ONLY_WEEKEND",
+				"name": "Only Weekend"
+			}, {
+				"id": "0a5bfdc1-92a9-4cd5-b087-4d1c712cb721",
+				"booking_type": "book_day",
+				"code": "TWO_HOURS",
+				"name": "Two Hours"
+			}],
+			"space_schedules": [{
+				"id": "4460ab36-a8e7-483e-bf3a-7f799f4adc16",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "b76070bc-a6d6-4c98-83c5-08763a843010",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "ec6645f4-9f27-4fa1-ac52-107451ef72f0",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "c8af6845-86cf-49cb-889d-6b0aa0006676",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "a9eecf6f-2430-45cc-9a30-c0c251930a2b",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "65da1b04-4ff4-4435-ac41-e5dc3ff578dd",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "a84faee0-7575-4aaa-b581-a847667ae487",
+				"name": "Pahlevi and Sons",
+				"rate": 2,
+				"address": "Jl. Gajahmada",
+				"description": "Seamless responsive implementation",
+				"base_price": 388868,
+				"display_price": 616799,
+				"images": [{
+					"id": "c1d3f481-76a7-42a1-889e-88077b08fda0",
+					"original_path": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/03/14/105066394-GettyImages-498350103_1.1910x1000.jpg",
+					"medium_path": "https://picsum.photos/1910/1000?random",
+					"thumb_path": "https://picsum.photos/1910/1000?random"
+				}],
+				"phone": "+628653055230",
+				"space_facilities": [{
+					"id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3573f0b7-7f64-4e2d-b940-fd2fc36516c1",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "85263fb9-48c5-48b5-8fc5-c29e1b9cdbb3",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "eff4cec9-62a5-494b-9b63-ba310bce68a7",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "71e07fd4-fbe3-4ffa-83ef-6e9ae4da8df7",
+					"code": "WIFI",
+					"name": "Wifi"
+				}],
+				"space_categories": [{
+					"id": "bd0789c8-e389-42a0-9f84-15358353c27e",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "4a333012-cc19-4543-a625-7284b7c66677",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "803b1d50-2665-472f-9bf3-e335fe6b9b10",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "a9540574-f321-4f11-869c-0025b42eaf54",
+					"booking_type": "book_time",
+					"code": "EVERY_WEEKDAY",
+					"name": "Every Weekday"
+				}, {
+					"id": "fec4f144-95fb-4cef-8a0a-d32f42bf7ca8",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "79db8bc3-66dc-4ec9-b162-c6f2d13bae63",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "bf1b35b8-4abb-42ab-b84c-49d5b4c5d3b2",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "5c9f3bc2-b37c-4748-8710-934dee7d25c9",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "e0a91a2d-2054-4675-82aa-853d63f3a916",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "36da5f3d-8123-415d-916b-d6d1f5c6dc1f",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "e3e2cc3b-1226-4a45-b56f-dd94e8588566",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "98d686a4-26f6-4f07-8e2c-74dc4b2c2886",
+				"name": "Ardianto-Budiono",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Triple-buffered background standardization",
+				"base_price": 222023,
+				"display_price": 462750,
+				"images": [{
+					"id": "7c0d8b25-0762-43e2-adb6-7436aaec2900",
+					"original_path": "https://picsum.photos/1910/1000?random",
+					"medium_path": "https://picsum.photos/1910/1000?random",
+					"thumb_path": "https://picsum.photos/1910/1000?random"
+				}],
+				"phone": "0855-2714-4451",
+				"space_facilities": [{
+					"id": "8484022d-9065-4ee6-b40b-aa1747cd3a33",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3bb4e79c-c6c9-4bf4-8401-9640776b9618",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "bcb13595-cd17-4f86-b1d1-301ca315d6c8",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "191e2f92-d01d-449f-94ce-6b85cdc2eec7",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "6bdda0c8-aea5-4888-b54b-9086476eb5fe",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "443f83e7-52c1-4e8c-9013-292e9b470e43",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2beae96e-61b5-477d-842a-59864394e8c9",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "25ac9a2a-de73-4d61-b019-381c537017ca",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "17bcb995-3446-4412-a678-0552174859ef",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "307f5a25-533d-4d68-a92d-196df6041533",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8d43a59c-0da8-45eb-9bda-18dea4822cec",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "044ccb72-e6fc-48ab-9edf-ea4499585a34",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f52dbbc8-97ba-4a35-8676-5655507fc5a2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "c13e0ad9-86e2-41b1-bbaf-7229c4dc9d3c",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "55a9d788-81ad-4fb5-ad4d-a211d555a621",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "233814ac-2873-48c6-a9cf-8bbfd17689e7",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		},
+		{
+			"id": "409561aa-7c1a-4a4c-a164-3774953d5ddd",
+			"name": "Suryatama-Indrajaya",
+			"rate": 2,
+			"address": "Jl. Gatot Soebroto",
+			"description": "Self-enabling grid-enabled extranet",
+			"base_price": 776454,
+			"display_price": 315419,
+			"images": [{
+				"id": "dd0e7da3-ffd4-446b-88a1-cb1e195c4765",
+				"original_path": "https://picsum.photos/1910/1000?random",
+				"medium_path": "https://picsum.photos/1910/1000?random",
+				"thumb_path": "https://picsum.photos/1910/1000?random"
+			}],
+			"phone": "0836-7739-6126",
+			"space_facilities": [{
+				"id": "b8a7e54a-1bee-46a4-aa65-6081cc5ef139",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "30823530-14f8-407b-b266-21b08509b82b",
+				"code": "PRAY_ROOM",
+				"name": "Praying Room"
+			}, {
+				"id": "659482c9-7d22-4d73-ad1a-61d8afa469d6",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "bc537725-d8ab-4f66-a3dd-5ed9925a10c4",
+				"code": "VIDEO_CONF",
+				"name": "Video Conference"
+			}, {
+				"id": "dabe639b-3274-4794-90c5-f144b4564742",
+				"code": "PROJECTION",
+				"name": "Projector"
+			}],
+			"space_categories": [{
+				"id": "5757a6c8-a62b-406a-81b4-3fd33eaab074",
+				"name": "Sport"
+			}],
+			"space_types": [{
+				"id": "2d735ce4-7836-40c8-92c2-838e052ac95b",
+				"name": "Big Room"
+			}],
+			"space_capacities": [{
+				"id": "58cda6b2-cb9a-4785-a665-50ee4e32cbf9",
+				"min_pax": 1,
+				"max_pax": 10
+			}],
+			"space_availabilities": [{
+				"id": "48c3ba13-86d0-4557-b19c-7573047bf6fb",
+				"booking_type": "book_time",
+				"code": "ONLY_WEEKEND",
+				"name": "Only Weekend"
+			}, {
+				"id": "0a5bfdc1-92a9-4cd5-b087-4d1c712cb721",
+				"booking_type": "book_day",
+				"code": "TWO_HOURS",
+				"name": "Two Hours"
+			}],
+			"space_schedules": [{
+				"id": "4460ab36-a8e7-483e-bf3a-7f799f4adc16",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "b76070bc-a6d6-4c98-83c5-08763a843010",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "ec6645f4-9f27-4fa1-ac52-107451ef72f0",
+				"time": "2018-08-05",
+				"is_available": true
+			}, {
+				"id": "c8af6845-86cf-49cb-889d-6b0aa0006676",
+				"time": "2018-08-06",
+				"is_available": false
+			}, {
+				"id": "a9eecf6f-2430-45cc-9a30-c0c251930a2b",
+				"time": "2018-08-05",
+				"is_available": false
+			}, {
+				"id": "65da1b04-4ff4-4435-ac41-e5dc3ff578dd",
+				"time": "2018-08-06",
+				"is_available": false
+			}],
+			"related_spaces": [{
+				"id": "a84faee0-7575-4aaa-b581-a847667ae487",
+				"name": "Pahlevi and Sons",
+				"rate": 2,
+				"address": "Jl. Gajahmada",
+				"description": "Seamless responsive implementation",
+				"base_price": 388868,
+				"display_price": 616799,
+				"images": [{
+					"id": "c1d3f481-76a7-42a1-889e-88077b08fda0",
+					"original_path": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/03/14/105066394-GettyImages-498350103_1.1910x1000.jpg",
+					"medium_path": "https://picsum.photos/1910/1000?random",
+					"thumb_path": "https://picsum.photos/1910/1000?random"
+				}],
+				"phone": "+628653055230",
+				"space_facilities": [{
+					"id": "750608e7-95ae-4a75-b10d-d45a9fc12c6e",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3573f0b7-7f64-4e2d-b940-fd2fc36516c1",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "85263fb9-48c5-48b5-8fc5-c29e1b9cdbb3",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "eff4cec9-62a5-494b-9b63-ba310bce68a7",
+					"code": "VIDEO_CONF",
+					"name": "Video Conference"
+				}, {
+					"id": "71e07fd4-fbe3-4ffa-83ef-6e9ae4da8df7",
+					"code": "WIFI",
+					"name": "Wifi"
+				}],
+				"space_categories": [{
+					"id": "bd0789c8-e389-42a0-9f84-15358353c27e",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "4a333012-cc19-4543-a625-7284b7c66677",
+					"name": "Big Room"
+				}],
+				"space_capacities": [{
+					"id": "803b1d50-2665-472f-9bf3-e335fe6b9b10",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "a9540574-f321-4f11-869c-0025b42eaf54",
+					"booking_type": "book_time",
+					"code": "EVERY_WEEKDAY",
+					"name": "Every Weekday"
+				}, {
+					"id": "fec4f144-95fb-4cef-8a0a-d32f42bf7ca8",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "79db8bc3-66dc-4ec9-b162-c6f2d13bae63",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "bf1b35b8-4abb-42ab-b84c-49d5b4c5d3b2",
+					"time": "2018-08-05",
+					"is_available": true
+				}, {
+					"id": "5c9f3bc2-b37c-4748-8710-934dee7d25c9",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "e0a91a2d-2054-4675-82aa-853d63f3a916",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "36da5f3d-8123-415d-916b-d6d1f5c6dc1f",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "e3e2cc3b-1226-4a45-b56f-dd94e8588566",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}, {
+				"id": "98d686a4-26f6-4f07-8e2c-74dc4b2c2886",
+				"name": "Ardianto-Budiono",
+				"rate": 3,
+				"address": "Jl. Gatot Soebroto",
+				"description": "Triple-buffered background standardization",
+				"base_price": 222023,
+				"display_price": 462750,
+				"images": [{
+					"id": "7c0d8b25-0762-43e2-adb6-7436aaec2900",
+					"original_path": "https://picsum.photos/1910/1000?random",
+					"medium_path": "https://picsum.photos/1910/1000?random",
+					"thumb_path": "https://picsum.photos/1910/1000?random"
+				}],
+				"phone": "0855-2714-4451",
+				"space_facilities": [{
+					"id": "8484022d-9065-4ee6-b40b-aa1747cd3a33",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "3bb4e79c-c6c9-4bf4-8401-9640776b9618",
+					"code": "WIFI",
+					"name": "Wifi"
+				}, {
+					"id": "bcb13595-cd17-4f86-b1d1-301ca315d6c8",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}, {
+					"id": "191e2f92-d01d-449f-94ce-6b85cdc2eec7",
+					"code": "PROJECTION",
+					"name": "Projector"
+				}, {
+					"id": "6bdda0c8-aea5-4888-b54b-9086476eb5fe",
+					"code": "PRAY_ROOM",
+					"name": "Praying Room"
+				}],
+				"space_categories": [{
+					"id": "443f83e7-52c1-4e8c-9013-292e9b470e43",
+					"name": "Sport"
+				}],
+				"space_types": [{
+					"id": "2beae96e-61b5-477d-842a-59864394e8c9",
+					"name": "Small Room"
+				}],
+				"space_capacities": [{
+					"id": "25ac9a2a-de73-4d61-b019-381c537017ca",
+					"min_pax": 1,
+					"max_pax": 3
+				}],
+				"space_availabilities": [{
+					"id": "17bcb995-3446-4412-a678-0552174859ef",
+					"booking_type": "book_time",
+					"code": "EVERY_DAY",
+					"name": "Every Day"
+				}, {
+					"id": "307f5a25-533d-4d68-a92d-196df6041533",
+					"booking_type": "book_day",
+					"code": "HOURLY",
+					"name": "Hourly"
+				}],
+				"space_schedules": [{
+					"id": "8d43a59c-0da8-45eb-9bda-18dea4822cec",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "044ccb72-e6fc-48ab-9edf-ea4499585a34",
+					"time": "2018-08-05",
+					"is_available": false
+				}, {
+					"id": "f52dbbc8-97ba-4a35-8676-5655507fc5a2",
+					"time": "2018-08-06",
+					"is_available": true
+				}, {
+					"id": "c13e0ad9-86e2-41b1-bbaf-7229c4dc9d3c",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "55a9d788-81ad-4fb5-ad4d-a211d555a621",
+					"time": "2018-08-06",
+					"is_available": false
+				}, {
+					"id": "233814ac-2873-48c6-a9cf-8bbfd17689e7",
+					"time": "2018-08-06",
+					"is_available": false
+				}]
+			}]
+		}
+	] 
+}
+		

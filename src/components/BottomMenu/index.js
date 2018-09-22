@@ -32,7 +32,7 @@ class BottomMenu extends Component {
                     <div className="col-3">
                         <NavLink
                           exact
-                          to="/home"
+                          to="/my_space"
                           className="color-white"
                           style={{
                             width: '100%',

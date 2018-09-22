@@ -4,7 +4,8 @@ import * as types from '../_constants/Space'
 export default function(
   state = {
     list: [],
-    data: null
+    data: null,
+    my_spaces: []
   },
   action
 ) {
@@ -17,6 +18,8 @@ export default function(
       return {...state, data: action.payload}
     case types.CLEAR_SPACE:
       return {...state, data: null}
+    case types.SET_MY_SPACES:
+      return {...state, my_spaces: _.uniqBy([...state.my_spaces, ...action.payload],'id')}
     default:
       return state;
   }

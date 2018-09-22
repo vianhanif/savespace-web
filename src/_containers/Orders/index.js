@@ -20,43 +20,52 @@ class Orders extends Component {
     this.props.dispatch(orderActions.pickOrder(item))
   }
 
+  renderItem (item, index) {
+    return (
+      <div className="order-item" key={index}>
+        <div className="content">
+          <label className="date">{item.date}</label>
+          <label className="room">{item.room}</label>
+          <div className="line"></div>
+          <div className="time">
+            <label className="value">{item.start_time}</label>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <label className="value">{item.end_time}</label>
+          </div>
+          <label className="status">{item.status}</label>
+          <Button>Detail</Button>
+        </div>
+        <div className="image-container">
+          <div className="image-view">
+            <ProgressiveImage cover image={item.image} preview={item.image} />
+          </div>
+          {item.owned && (
+            <div className="action">
+              <Button type="secondary">Tolak</Button>
+              <Button type="primary">Terima</Button>
+            </div>
+          )}
+          {!item.owned && (
+            <Button type="primary">Bayar</Button>
+          )}
+        </div>
+      </div>
+    )
+  }
+
   render() {
     return (
       <Fragment>
         {this.props.Order.list.length > 0 && (
           <div className="order-container">
-            {this.props.Order.list.map((item, index) => (
-              <div className="order-item" key={index}>
-                <div className="content">
-                  <label className="date">{item.date}</label>
-                  <label className="room">{item.room}</label>
-                  <div className="line"></div>
-                  <div className="time">
-                    <label className="value">{item.start_time}</label>
-                    <div className="dot"></div>
-                    <div className="dot"></div>
-                    <div className="dot"></div>
-                    <label className="value">{item.end_time}</label>
-                  </div>
-                  <label className="status">{item.status}</label>
-                  <Button>Detail</Button>
-                </div>
-                <div className="image-container">
-                  <div className="image-view">
-                    <ProgressiveImage cover image={item.image} preview={item.image} />
-                  </div>
-                  {item.owned && (
-                    <div className="action">
-                      <Button type="secondary">Tolak</Button>
-                      <Button type="primary">Terima</Button>
-                    </div>
-                  )}
-                  {!item.owned && (
-                    <Button type="primary">Bayar</Button>
-                  )}
-                </div>
-              </div>
-            ))}
+            {this.props.Order.list.map((item, index) => {
+              if (typeof this.props.owned !== 'undefined') {
+                return this.props.owned === item.owned && this.renderItem(item, index)
+              }
+              return this.renderItem(item, index)
+            })}
           </div>
         )}
       </Fragment>
