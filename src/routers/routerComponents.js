@@ -12,7 +12,8 @@ export const routes = [
   {path: '/detail/:id/schedules', component: require('../pages/SchedulePicker').default},
   {path: '/detail/:id/booking_form', component: require('../pages/BookingForm').default},
   {path: '/history', component: require('../pages/History').default},
-  {path: '/my_space', component: require('../pages/MySpace').default}
+  {path: '/my_space', component: require('../pages/MySpace').default},
+  {path: '/intro_new_space', component: require('../pages/IntroNewSpace').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {

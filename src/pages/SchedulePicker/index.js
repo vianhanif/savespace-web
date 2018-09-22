@@ -72,7 +72,6 @@ class SchedulePicker extends Component {
             <Button onClick={() => this.props.history.push(`/detail/${this.props.match.params.id}/booking_form`)}>Ok</Button>
           </div>
         </Container>
-        <BottomMenu/>
       </Fragment>
     ) : <Loader/>
   }

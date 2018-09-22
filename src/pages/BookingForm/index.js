@@ -47,7 +47,6 @@ class BookingForm extends Component {
             <Button>Ok</Button>
           </div>
         </Container>
-        <BottomMenu/>
       </Fragment>
     ) : <Loader/>
   }

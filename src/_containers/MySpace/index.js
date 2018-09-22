@@ -30,7 +30,7 @@ class MySpaces extends Component {
               </div>
             ))}
             <div className="item item-button">
-              <div className="image-container">
+              <div className="image-container" onClick={() => this.props.history.push('/intro_new_space')}>
                 <div className="image">
                   <PlusIcon className="plus" color="#ffffff"/>
                 </div>
