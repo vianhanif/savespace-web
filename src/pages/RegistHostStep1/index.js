@@ -7,10 +7,10 @@ import Loader from '../../components/Loader';
 import Header from '../../components/Header'
 import Button from '../../components/Button'
 import * as appActions from '../../_actions/App'
-import CheckBox from '../../components/Form/CheckBox'
+import Text from '../../components/Form/Text'
 import './style.scss';
 
-class IntroNewSpace extends Component {
+class RegistHostStep1 extends Component {
   state = {
     fetched: true
   };
@@ -24,17 +24,22 @@ class IntroNewSpace extends Component {
       <Fragment>
         <Header title={this.props.App.title}/>
         <Container gutter={GUTTER_TYPE.BOTH}>
-          <div className="intro-container">
+          <div className="regist-step1-container">
             <label className="title">
-              Bergabunglah Bersama Kami dan dapatkan pendapatan extra dari ruangan anda
+              Informasi Pemilik
             </label>
-            <CheckBox className="check" id="check-intro">Saya setuju dengan syarat & ketentuan yang diberikan oleh save space</CheckBox>
+            <div className="regist-form">
+              <Text type="text" placeholder="Name"></Text>
+              <Text type="text" placeholder="No. KTP"></Text>
+              <Text type="email" placeholder="Email"></Text>
+              <Text type="telp" placeholder="No. Telp"></Text>
+            </div>
             <div className="options">
               <div className="left">
                 <Button>Kembali</Button>
               </div>
               <div className="right">
-                <Button onClick={() => this.props.history.push('/regist_host_step1')}>Ok</Button>
+                <Button onClick={() => this.props.history.push('/regist_host_step2')}>Ok</Button>
               </div>
             </div>
           </div>
@@ -51,4 +56,4 @@ const mapStateToProps = state => ({
     User: state.User,
     App: state.App
 });
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(IntroNewSpace));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(RegistHostStep1));

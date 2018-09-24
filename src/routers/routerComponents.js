@@ -13,7 +13,8 @@ export const routes = [
   {path: '/detail/:id/booking_form', component: require('../pages/BookingForm').default},
   {path: '/history', component: require('../pages/History').default},
   {path: '/my_space', component: require('../pages/MySpace').default},
-  {path: '/intro_new_space', component: require('../pages/IntroNewSpace').default}
+  {path: '/intro_new_space', component: require('../pages/IntroNewSpace').default},
+  {path: '/regist_host_step1', component: require('../pages/RegistHostStep1').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {

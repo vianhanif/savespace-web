@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import classNames from 'classnames'
 import './style.scss'
 
 class Text extends Component {
@@ -14,7 +15,7 @@ class Text extends Component {
       }
     }
     return (
-      <div className="form-field">
+      <div className={classNames('form-field', [this.props.className])} style={this.props.style}>
         <form>
           <div className="form-group">
             <input
