@@ -1,0 +1,38 @@
+.intro-container {
+  .title {
+    margin: 0 15px;
+    margin-top: 20%;
+    font-size: 3.1rem;
+    margin-bottom: 5%;
+  }
+  .check {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #009688;
+  }
+  .options {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    .left, .right {
+      width: 50%;
+    }
+    .left {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .right {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .btn {
+      width: initial;
+      padding: 10px 20px;
+      background: none;
+      box-shadow: none;
+      color: #028679;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+}

@@ -5,14 +5,10 @@ import {Container} from '../../components/Layout/Layout';
 import {GUTTER_TYPE} from '../../components/Layout/LayoutStyled';
 import Loader from '../../components/Loader';
 import Header from '../../components/Header'
-import BottomMenu from '../../components/BottomMenu'
 import Button from '../../components/Button'
-import Select from '../../components/Form/Select'
 import * as appActions from '../../_actions/App'
-import 'react-day-picker/lib/style.css';
+import CheckBox from '../../components/Form/CheckBox'
 import './style.scss';
-import classNames from 'classnames'
-import OrdersContainer from '../../_containers/Orders'
 
 class IntroNewSpace extends Component {
   state = {
@@ -28,9 +24,20 @@ class IntroNewSpace extends Component {
       <Fragment>
         <Header title={this.props.App.title}/>
         <Container gutter={GUTTER_TYPE.BOTH}>
-          <label>
-            
-          </label>
+          <div className="intro-container">
+            <label className="title">
+              Bergabunglah Bersama Kami dan dapatkan pendapatan extra dari ruangan anda
+            </label>
+            <CheckBox className="check" id="check-intro">Saya setuju dengan syarat & ketentuan yang diberikan oleh save space</CheckBox>
+            <div className="options">
+              <div className="left">
+                <Button>Kembali</Button>
+              </div>
+              <div className="right">
+                <Button>Ok</Button>
+              </div>
+            </div>
+          </div>
         </Container>
       </Fragment>
     ) : <Loader/>
