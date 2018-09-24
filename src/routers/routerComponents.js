@@ -14,7 +14,8 @@ export const routes = [
   {path: '/history', component: require('../pages/History').default},
   {path: '/my_space', component: require('../pages/MySpace').default},
   {path: '/intro_new_space', component: require('../pages/IntroNewSpace').default},
-  {path: '/regist_host_step1', component: require('../pages/RegistHostStep1').default}
+  {path: '/regist_host_step1', component: require('../pages/RegistHostStep1').default},
+  {path: '/regist_host_step2', component: require('../pages/RegistHostStep2').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {
