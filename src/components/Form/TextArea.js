@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import classNames from 'classnames'
 import './style.scss'
 
-class Text extends Component {
+class TextArea extends Component {
   state = {
     value: ''
   }
@@ -17,11 +17,10 @@ class Text extends Component {
     return (
       <div className={classNames('form-field', [this.props.className])} style={this.props.style}>
           <div className="form-group">
-            <input
+            <textarea
               autoComplete={false}
               className="form-control"
-              type={this.props.type}
-              id="email-input"
+              id="textarea-input"
               placeholder={this.props.placeholder}
               onChange={e => onChange(e.target.value)}
               style={{padding: '9px 12px'}}
@@ -33,4 +32,4 @@ class Text extends Component {
   }
 }
 
-export default Text;
+export default TextArea;

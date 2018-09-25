@@ -11,3 +11,15 @@
         }
     }
 }
+
+.form-field {
+    .form-group {
+        textarea {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0px 0px 18px rgb(199, 199, 199);
+            min-height: 140px;
+            padding: 20px !important;
+        }
+    }
+}

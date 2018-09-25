@@ -18,7 +18,8 @@ export const routes = [
   {path: '/regist_host_step2', component: require('../pages/RegistHostStep2').default},
   {path: '/regist_host_step3', component: require('../pages/RegistHostStep3').default},
   {path: '/regist_host_step4', component: require('../pages/RegistHostStep4').default},
-  {path: '/regist_host_step5', component: require('../pages/RegistHostStep5').default}
+  {path: '/regist_host_step5', component: require('../pages/RegistHostStep5').default},
+  {path: '/regist_host_step6', component: require('../pages/RegistHostStep6').default}
 ];
 let routesScrollToTop = [];
 routes.forEach(item => {

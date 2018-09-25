@@ -25,7 +25,7 @@ class RegistHostStep5 extends Component {
       <Fragment>
         <Header title={this.props.App.title}/>
         <Container gutter={GUTTER_TYPE.BOTH}>
-          <div className="regist-step1-container">
+          <div className="regist-step5-container">
             <label className="title">
               Lokasi
             </label>

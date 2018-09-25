@@ -7,10 +7,11 @@ import Loader from '../../components/Loader';
 import Header from '../../components/Header'
 import Button from '../../components/Button'
 import * as appActions from '../../_actions/App'
-import CheckBox from '../../components/Form/CheckBox'
+import TextArea from '../../components/Form/TextArea'
+import Select from '../../components/Form/Select'
 import './style.scss';
 
-class RegistHostStep4 extends Component {
+class RegistHostStep6 extends Component {
   state = {
     fetched: true
   };
@@ -24,34 +25,19 @@ class RegistHostStep4 extends Component {
       <Fragment>
         <Header title={this.props.App.title}/>
         <Container gutter={GUTTER_TYPE.BOTH}>
-          <div className="regist-step4-container">
+          <div className="regist-step6-container">
             <label className="title">
-              Fasilitas Lain
-            </label>
-            <br/>
-            <label className="subtitle">
-              Non Jaringan & Multimedia
+              Ceritakan lebih detail
             </label>
             <div className="regist-form">
-              <div className="row justify-content-around">
-                <div className="col-xs">
-                  <CheckBox className="check" id="fasilitas_wifi">Resepsionis</CheckBox>
-                  <CheckBox className="check" id="fasilitas_conf">Security</CheckBox>
-                  <CheckBox className="check" id="fasilitas_video">Ruang Ibadah</CheckBox>
-                </div>
-                <div className="col-xs">
-                  <CheckBox className="check" id="fasilitas_led">Lobby</CheckBox>
-                  <CheckBox className="check" id="fasilitas_proyektor">Dapur</CheckBox>
-                  <CheckBox className="check" id="fasilitas_white_board">F & B</CheckBox>
-                </div>
-              </div>
+              <TextArea placeholder="My Space is located at the center of Bintang Tangerang Selatan. Easy Access by Train and Cars or Motorcycle. Location is near the..."></TextArea>
             </div>
             <div className="options">
               <div className="left">
                 <Button>Kembali</Button>
               </div>
               <div className="right">
-                <Button onClick={() => this.props.history.push('/regist_host_step5')}>Ok</Button>
+                <Button onClick={() => this.props.history.push('/regist_host_step6')}>Ok</Button>
               </div>
             </div>
           </div>
@@ -68,4 +54,4 @@ const mapStateToProps = state => ({
     User: state.User,
     App: state.App
 });
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(RegistHostStep4));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(RegistHostStep6));
