@@ -10,6 +10,6 @@ export default function(
     case types.SET_TITLE:
         return {...state, title: action.payload}
     default:
-      return state;
+      return state
   }
 }

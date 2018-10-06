@@ -21,6 +21,6 @@ export default function(
     case types.SET_MY_SPACES:
       return {...state, my_spaces: _.uniqBy([...state.my_spaces, ...action.payload],'id')}
     default:
-      return state;
+      return state
   }
 }

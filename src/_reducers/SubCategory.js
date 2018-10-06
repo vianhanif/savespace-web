@@ -18,6 +18,6 @@ export default function(
     case types.CLEAR_SUB_CATEGORY:
       return {...state, category: null}
     default:
-      return state;
+      return state
   }
 }

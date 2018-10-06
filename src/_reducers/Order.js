@@ -18,6 +18,6 @@ export default function(
     case types.CLEAR_ORDER:
       return {...state, order: null}
     default:
-      return state;
+      return state
   }
 }

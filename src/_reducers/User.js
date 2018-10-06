@@ -10,6 +10,6 @@ export default function(
     case types.SET_USER:
         return {...state, data: action.payload}
     default:
-      return state;
+      return state
   }
 }
