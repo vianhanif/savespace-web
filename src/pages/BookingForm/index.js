@@ -43,7 +43,7 @@ class BookingForm extends Component {
             <Text type="number" placeholder="Jumlah Peserta"/>
           </FormContainer>
           <div className="submit">
-            <Button>Cancel</Button>
+            <Button onClick={() => this.props.history.goBack()}>Cancel</Button>
             <Button>Ok</Button>
           </div>
         </Container>
